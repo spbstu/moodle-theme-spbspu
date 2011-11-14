@@ -1,0 +1,51 @@
+.users-list {
+    list-style:none;
+    }
+    .users-list li {
+        display: inline-block;
+        overflow:hidden;
+        width:33%;
+        margin-bottom:8px;
+        padding-bottom: 5px;
+        }
+        .users-list li img {
+            float: left;
+            margin-right:5px;
+            }
+
+
+.user-image-16 {
+    width:16px;
+    }
+.user-image-18 {
+    width:18px;
+    }
+.user-image-24 {
+    width:24px;
+    }
+.user-image-36 {
+    width:36px;
+    }
+.user-image-42 {
+    width:42px;
+    }
+.user-image-50 {
+    width:50px;
+    }
+.user-image-64 {
+    width:64px;
+    }
+.user-image-100 {
+    width:100px;
+    }
+
+
+.active-users {
+    margin-left:30%;
+    padding-top:2em;
+    clear:both;
+    }
+
+.active-users li {
+    font-size:14px;
+    }

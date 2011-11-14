@@ -1,0 +1,20 @@
+.search-course {
+    padding:14px;
+    background:#ededed;
+    border-radius:6px;
+    }
+.search-course-box {
+    width:100%;
+    }
+    .search-course-box .search-btn {
+        width:80px;
+        text-align:right;
+        }
+    .search-course input {
+        font-size:18px;
+        vertical-align:middle;
+        }
+    .search-course input[type="text"] {
+        width:100%;
+        margin-right:10px;
+        }

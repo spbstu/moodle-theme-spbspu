@@ -1,0 +1,66 @@
+@import url(_header.css);
+@import url(_footer.css);
+@import url(_userbar.css);
+#wrapper {
+    background:url("/i/bg/wrapper-bg.png") top left repeat-x;
+    padding: 0 40px;
+    }
+#page {
+    min-width:910px;
+    max-width:1280px;
+    margin:auto;
+    min-height:600px;
+    }
+
+#footer {
+
+    }
+#content-wrap {
+    width:100%;
+    float:right;
+    margin-left:-400px;
+    }
+#content {
+    min-height:300px;
+    padding:24px 36px;
+    background:#fff url("http://moodle-theme.loc/i/bg/content-bg.png") 25% 0 repeat-y;
+    border:solid 1px #dbdbdb;
+    box-shadow:#CCC 0 0 6px;
+    margin-left:20%;
+    }
+    #content:after {
+        content:".";
+        display:block;
+        clear:both;
+        height:0;
+        overflow:hidden;
+        }
+    .content-box {
+        overflow:hidden;
+        padding-left:48px;
+        }
+    .content-box-side {
+        width:602px;
+        float:left;
+        }
+        .content-box-inside {
+            float:right;
+            width:416px;
+            }
+    .columns {
+        overflow:hidden;
+        }
+        .columns .column {
+            float:left;
+            width:288px;
+            }
+            .columns .column:nth-child(odd) {
+                margin-right:20px;
+                }
+#sidebar {
+    min-width:160px;
+    width:20%;
+    margin-right:36px;
+    float:left;
+    color:#666;
+    }

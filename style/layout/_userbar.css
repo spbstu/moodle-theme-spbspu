@@ -1,0 +1,46 @@
+#userbar {
+    float:right;
+    padding:5px;
+    background:#ECECEC;
+    border:solid 1px #dbdbdb;
+    border-radius:4px;
+    }
+.userbsar-links {
+    font-size:0;
+    }
+    .userbsar-links li {
+        font-size:12px;
+        display: inline-block;
+        padding: 0 5px;
+        border-left: solid 1px #c2c2c2;
+        }
+        .userbsar-links li:first-child {
+            border-left:none;
+            }
+
+.user-messages-link,
+.user-messages-link:hover {
+    text-decoration:none;
+    }
+.user-messages-counter {
+    font-weight:bold;
+    padding:2px 5px;
+    background:#dbdbdb;
+    border-radius:3px;
+    }
+.user-messages-link:hover .user-messages-title {
+    text-decoration:underline;
+    }
+.user-messages-link:hover .user-messages-counter {
+    background:#bdbdbd;
+    }
+.user-messages-link-new  .user-messages-title {
+    color:#C00;
+    }
+
+#userbar img {
+    float:none;
+    vertical-align:middle;
+    margin-right: 5px;
+    border:solid 1px #FFF;
+    }

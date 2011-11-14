@@ -1,0 +1,14 @@
+.categorylist {
+    font-size:14px;
+    width:100%;
+    }
+    .categorylist .indentation {
+        width:2em;
+        }
+    .categorylist .name {
+        padding: 0 5em 0.5em 0;
+        }
+    .categorylist .number {
+        width:3em;
+        color:#999;
+        }
