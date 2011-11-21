@@ -131,7 +131,6 @@ echo $OUTPUT->doctype() ?>
                 </div>
                 <?php } // End of if ($hasnavbar)?>
                 <!-- END DROP DOWN MENU -->
-
                 <?php if ($hastop) { ?>
                 <div id="region-post" class="block-region">
                     <div class="region-content">
