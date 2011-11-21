@@ -10,9 +10,6 @@ $hastop = $PAGE->blocks->region_has_content('top', $OUTPUT);
 $custommenu = $OUTPUT->custom_menu();
 $hascustommenu = (empty($PAGE->layout_options['nocustommenu']) && !empty($custommenu));
 
-spbspu_check_colourswitch();
-spbspu_initialise_colourswitcher($PAGE);
-
 $bodyclasses = array();
 $bodyclasses[] = 'spbspu-'.spbspu_get_colour();
 if ($hassidepre && !$hassidepost) {
@@ -131,6 +128,7 @@ echo $OUTPUT->doctype() ?>
                 </div>
                 <?php } // End of if ($hasnavbar)?>
                 <!-- END DROP DOWN MENU -->
+
                 <?php if ($hastop) { ?>
                 <div id="region-post" class="block-region">
                     <div class="region-content">
