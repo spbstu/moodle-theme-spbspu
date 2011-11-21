@@ -86,3 +86,13 @@ strong {
 	list-style: disc;
 	margin-left: 2em;
   }
+
+/*---------- Extra classes -----------*/
+
+.skiplinks,
+.skip,
+.skip-block,
+.accesshide {
+    position:absolute;
+    left:-9999px;
+    }

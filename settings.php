@@ -32,7 +32,7 @@ if ($ADMIN->fulltree) {
 $name = 'theme_spbspu/logo';
 $title = get_string('logo','theme_spbspu');
 $description = get_string('logodesc', 'theme_spbspu');
-$setting = new admin_setting_configtext($name, $title, $description, '', PARAM_URL);
+$setting = new admin_setting_configtext($name, $title, $description, '/theme/spbspu/pix/logo.png', PARAM_URL);
 $settings->add($setting);
 
 // Tagline setting
