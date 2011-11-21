@@ -9,9 +9,6 @@ $hassidepost = $PAGE->blocks->region_has_content('side-post', $OUTPUT);
 $custommenu = $OUTPUT->custom_menu();
 $hascustommenu = (empty($PAGE->layout_options['nocustommenu']) && !empty($custommenu));
 
-spbspu_check_colourswitch();
-spbspu_initialise_colourswitcher($PAGE);
-
 $bodyclasses = array();
 $bodyclasses[] = 'spbspu-'.spbspu_get_colour();
 if ($hassidepre && !$hassidepost) {
@@ -131,6 +128,18 @@ echo $OUTPUT->doctype() ?>
                 <?php } // End of if ($hasnavbar)?>
                 <!-- END DROP DOWN MENU -->
                 <div id="region-main">
+                    <pre>
+<!--                        --><?php //print_r($PAGE->context); ?>
+
+                    </pre>
+                    <?php //TODO: Заменить на строковоую переменную ?>
+                    <?php if (spbspu_show_search_box($this->page->pagelayout)) { ?>
+                    <div class="course-search-box">
+                    <h2>Поиск курса</h2>
+                        <?php print_course_search('', false, 'short'); ?>
+                    </div>
+                    <?php
+                    } ?>
                     <div class="region-content">
                         <?php echo core_renderer::MAIN_CONTENT_TOKEN ?>
                     </div>

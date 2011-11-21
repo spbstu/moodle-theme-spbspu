@@ -88,40 +88,9 @@ function spbspu_set_customcss($css, $customcss) {
     return $css;
 }
 
-/**
- * Adds the JavaScript for the colour switcher to the page.
- *
- * The colour switcher is a YUI moodle module that is located in
- *     theme/spbspu/yui/spbspu/spbspu.js
- *
- * @param moodle_page $page 
- */
-function spbspu_initialise_colourswitcher(moodle_page $page) {
-    user_preference_allow_ajax_update('theme_spbspu_chosen_colour', PARAM_ALPHA);
-    $page->requires->yui_module('moodle-theme_spbspu-colourswitcher', 'M.theme_spbspu.initColourSwitcher', array(array('div'=>'#colourswitcher')));
-}
-
-/**
- * Gets the colour the user has selected, or the default if they have never changed
- *
- * @param string $default The default colour to use, normally red
- * @return string The colour the user has selected
- */
-function spbspu_get_colour($default='red') {
-    return get_user_preferences('theme_spbspu_chosen_colour', $default);
-}
-
-/**
- * Checks if the user is switching colours with a refresh (JS disabled)
- *
- * If they are this updates the users preference in the database
- *
- * @return bool
- */
-function spbspu_check_colourswitch() {
-    $changecolour = optional_param('spbspucolour', null, PARAM_ALPHA);
-    if (in_array($changecolour, array('red','green','blue','orange'))) {
-        return set_user_preference('theme_spbspu_chosen_colour', $changecolour);
+function spbspu_show_search_box($case) {
+    if (in_array($case, array('frontpage', 'coursecategory', 'mydashboard', 'mypublic'))) {
+        return true;
     }
     return false;
 }
