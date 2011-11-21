@@ -26,8 +26,10 @@
     background:#fff url("http://moodle-theme.loc/i/bg/content-bg.png") 25% 0 repeat-y;
     border:solid 1px #dbdbdb;
     box-shadow:#CCC 0 0 6px;
-    margin-left:20%;
     }
+    .side-pre-only #content {
+        background-position:-450px 0;
+        }
     #content:after {
         content:".";
         display:block;
