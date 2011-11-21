@@ -5,6 +5,7 @@ $hasnavbar = (empty($PAGE->layout_options['nonavbar']) && $PAGE->has_navbar());
 $hasfooter = (empty($PAGE->layout_options['nofooter']));
 $hassidepre = $PAGE->blocks->region_has_content('side-pre', $OUTPUT);
 $hassidepost = $PAGE->blocks->region_has_content('side-post', $OUTPUT);
+$hastop = $PAGE->blocks->region_has_content('top', $OUTPUT);
 
 $custommenu = $OUTPUT->custom_menu();
 $hascustommenu = (empty($PAGE->layout_options['nocustommenu']) && !empty($custommenu));
@@ -130,6 +131,15 @@ echo $OUTPUT->doctype() ?>
                 </div>
                 <?php } // End of if ($hasnavbar)?>
                 <!-- END DROP DOWN MENU -->
+
+                <?php if ($hastop) { ?>
+                <div id="region-post" class="block-region">
+                    <div class="region-content">
+                        <?php echo $OUTPUT->blocks_for_region('top') ?>
+                    </div>
+                </div>
+                <?php } ?>
+
                 <div id="region-main">
                     <div class="region-content">
                         <?php echo core_renderer::MAIN_CONTENT_TOKEN ?>

@@ -39,6 +39,7 @@ $string['logodesc'] = 'Enter the URL to an image to use as the logo for this sit
 $string['pluginname'] = 'spbspu';
 $string['region-side-post'] = 'Right';
 $string['region-side-pre'] = 'Left';
+$string['region-top'] = 'Top';
 $string['tagline'] = 'Tagline';
 $string['taglinedesc'] = 'The content from this textarea will be displayed under the Site logo on the Homepage';
 $string['usergreeting'] = 'Привет, {$a}!';

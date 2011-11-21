@@ -64,29 +64,29 @@ $THEME->layouts = array(
     ),
     'standard' => array(
         'file' => 'general.php',
-        'regions' => array('side-pre', 'side-post'),
+        'regions' => array('side-pre', 'side-post', 'top'),
         'defaultregion' => 'side-post'
     ),
     // Course page
     'course' => array(
         'file' => 'general.php',
-        'regions' => array('side-pre', 'side-post'),
+        'regions' => array('side-pre', 'side-post', 'top'),
         'defaultregion' => 'side-post'
     ),
     // Course page
     'coursecategory' => array(
         'file' => 'general.php',
-        'regions' => array('side-pre', 'side-post'),
+        'regions' => array('side-pre', 'side-post', 'top'),
         'defaultregion' => 'side-post'
     ),
     'incourse' => array(
         'file' => 'general.php',
-        'regions' => array('side-pre', 'side-post'),
+        'regions' => array('side-pre', 'side-post', 'top'),
         'defaultregion' => 'side-post'
     ),
     'frontpage' => array(
         'file' => 'general.php',
-        'regions' => array('side-pre', 'side-post'),
+        'regions' => array('side-pre', 'side-post', 'top'),
         'defaultregion' => 'side-post'
     ),
     'admin' => array(
@@ -96,12 +96,12 @@ $THEME->layouts = array(
     ),
     'mydashboard' => array(
         'file' => 'general.php',
-        'regions' => array('side-pre', 'side-post'),
+        'regions' => array('side-pre', 'side-post', 'top'),
         'defaultregion' => 'side-post'
     ),
     'mypublic' => array(
         'file' => 'general.php',
-        'regions' => array('side-pre', 'side-post'),
+        'regions' => array('side-pre', 'side-post', 'top'),
         'defaultregion' => 'side-post'
     ),
     'login' => array(
