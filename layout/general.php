@@ -11,7 +11,6 @@ $custommenu = $OUTPUT->custom_menu();
 $hascustommenu = (empty($PAGE->layout_options['nocustommenu']) && !empty($custommenu));
 
 $bodyclasses = array();
-$bodyclasses[] = 'spbspu-'.spbspu_get_colour();
 if ($hassidepre && !$hassidepost) {
     $bodyclasses[] = 'side-pre-only';
 } else if ($hassidepost && !$hassidepre) {
