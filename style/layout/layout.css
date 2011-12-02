@@ -2,7 +2,7 @@
 @import url(_footer.css);
 @import url(_userbar.css);
 #wrapper {
-    background:url("/i/bg/wrapper-bg.png") top left repeat-x;
+    background:url("../../pix/bg/wrapper-bg.png") top left repeat-x;
     padding: 0 40px;
     }
 #page {
@@ -23,7 +23,7 @@
 #content {
     min-height:300px;
     padding:24px 36px;
-    background:#fff url("http://moodle-theme.loc/i/bg/content-bg.png") 25% 0 repeat-y;
+    background:#fff url("../../pix/bg/content-bg.png") 25% 0 repeat-y;
     border:solid 1px #dbdbdb;
     box-shadow:#CCC 0 0 6px;
     }
