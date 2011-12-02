@@ -1,0 +1,30 @@
+.beingmoved {
+    padding-bottom:25px;
+    border:dashed 1px #c2c2c2;
+    background:#EFEFEF;
+    border-radius:5px;
+    }
+
+.blockmovetarget {
+    display:block;
+    padding:.5em;
+    border:dashed 1px #ababab;
+    background:#dbdbdb;
+    border-radius:5px;
+    }
+    .blockmovetarget:hover {
+        background:#ECECEC;
+        }
+    .blockmovetarget .accesshide {
+        display:block;
+        position:static;
+        }
+.blockannotation {
+    position:relative;
+    top: -25px;
+    padding:5px 8px;
+    background:#CCC;
+    border:1px #ababab;
+    border-style:none solid solid;
+    border-radius: 0 0 5px 5px;
+    }
