@@ -1,0 +1,36 @@
+.dock {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    z-index:1000;
+    width:2em;
+    background:#dbdbdb;
+    border-right:solid 1px #ababab;
+    box-shadow:0 0 5px #999;
+    }
+.dockeditem {
+    /*width:1em;*/
+    padding:.5em;
+    border-bottom:solid 1px #adadad;
+    }
+    .dockeditem h2 {
+        margin:0;
+        }
+.nothingdocked {
+    display:none;
+    }
+
+#dockeditempanel {
+    position:relative;
+    left:100%;
+    z-index:1100;
+    background:#dbdbdb;
+    border:solid 1px #ababab;
+    }
+.dockitempanel_hidden {
+    display:none;
+    }
+.dockeditempanel_content {
+    /*position:absolute;*/
+    }
