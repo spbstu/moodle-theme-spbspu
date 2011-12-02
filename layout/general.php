@@ -58,7 +58,7 @@ echo $OUTPUT->doctype() ?>
                         echo html_writer::start_tag('li', array('id'=>'userdetails', 'class'=>'user-name current-user'));
                         echo html_writer::tag('span', $USER->firstname.'&nbsp;'.$USER->lastname);
                         echo html_writer::start_tag('li', array('class'=>'prolog'));
-                        echo html_writer::link(new moodle_url('/user/profile.php', array('id'=>$USER->id)), get_string('myprofile')).' | ';
+                        echo html_writer::link(new moodle_url('/user/profile.php', array('id'=>$USER->id)), get_string('myprofile'));
                         echo html_writer::end_tag('li');
                         echo html_writer::start_tag('li', array('class'=>'prolog'));
                         echo html_writer::link(new moodle_url('/login/logout.php', array('sesskey'=>sesskey())), get_string('logout'));
@@ -68,8 +68,8 @@ echo $OUTPUT->doctype() ?>
                             echo html_writer::start_tag('ul', array('class'=>"userbsar-links"));
                             $loginlink = html_writer::link(new moodle_url('/login/'), get_string('loginhere', 'theme_spbspu'));
                             echo html_writer::tag('li', get_string('welcome', 'theme_spbspu', $loginlink));
-                            $loginlink = html_writer::link(new moodle_url('/login/signup.php'), get_string('newaccount', 'theme_spbspu'));
-                            echo html_writer::tag('li', $loginlink);
+                            $signuplink = html_writer::link(new moodle_url('/login/signup.php'), get_string('newaccount', 'theme_spbspu'));
+                            echo html_writer::tag('li', $signuplink);
                             echo html_writer::end_tag('ul');;
                         }
                     ?>
