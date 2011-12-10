@@ -35,7 +35,7 @@ echo $OUTPUT->doctype() ?>
     <title><?php echo $PAGE->title ?></title>
     <link rel="shortcut icon" href="<?php echo $OUTPUT->pix_url('favicon', 'theme')?>" />
     <meta name="description" content="<?php p(strip_tags(format_text($SITE->summary, FORMAT_HTML))) ?>" />
-    <link rel="stylesheet" href="/theme/spbspu/style/moodle-theme.css">
+    <link rel="stylesheet" href="<?php echo $CFG->wwwroot?>/theme/spbspu/style/moodle-theme.css">
     <?php echo $OUTPUT->standard_head_html() ?>
 </head>
 <body id="<?php p($PAGE->bodyid) ?>" class="<?php p($PAGE->bodyclasses.' '.join(' ', $bodyclasses)) ?>">
