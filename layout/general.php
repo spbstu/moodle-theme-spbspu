@@ -92,7 +92,7 @@ echo $OUTPUT->doctype() ?>
 
         <!-- START OF CONTENT -->
         <div id="content">
-            <?php if ($hassidepre && $hassidepost) { ?>
+            <?php if ($hassidepre || $hassidepost) { ?>
             <div id="sidebar">
 
             <?php if ($hassidepre) { ?>
