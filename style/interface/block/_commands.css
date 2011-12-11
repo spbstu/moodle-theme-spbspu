@@ -1,6 +1,13 @@
+
 .commands {
-    text-align:right;
+text-align:right;
     }
     .commands a {
         margin:0 .5ex;
+        }
+.block .commands {
+    display:none;
+    }
+    .block:hover .commands {
+        display:block;
         }

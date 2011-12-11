@@ -1,0 +1,13 @@
+.block_action {
+    float:right;
+    display:none;
+    }
+    .block:hover .block_action {
+        display:block;
+        }
+.block h2 {
+    margin-right:3em;
+    }
+.block_action img {
+    cursor:pointer;
+    }
