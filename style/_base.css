@@ -28,6 +28,7 @@ h2 {
     margin: 1em 0 0.5em;
     color: #000;
     }
+    .skiplinks + h2
     h2:first-child {
         margin-top:0;
         }
