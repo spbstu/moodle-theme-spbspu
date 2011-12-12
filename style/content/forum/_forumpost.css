@@ -1,0 +1,18 @@
+.forumpost {
+    border:none;
+    margin-bottom:1em;
+    }
+    .forumpost .header {
+        overflow:hidden;
+        margin-bottom:1em;
+        }
+        .forumpost .header .picture {
+            margin-right:1ex;
+            }
+        .forumpost .subject {
+            font-size:1.2em;
+            }
+        .forumpost .author {
+            font-size:0.9em;
+            color:#999;
+            }
