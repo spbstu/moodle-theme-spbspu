@@ -1,0 +1,92 @@
+.block_calendar_month {
+    
+    }
+
+/* Calendar table
+---------------------------------------- */
+
+.minicalendar {
+    width:100%;
+    text-align:right;
+    border-collapse:separate;
+    border-spacing:4px;
+    }
+    .minicalendar .weekdays th {
+        /*font-weight:normal;*/
+        font-size:10px;
+        text-align:right;
+        color:#999;
+        }
+    .minicalendar .day {
+        padding:3px 5px 3px 2px;
+        border-radius:3px;
+        color:#999;
+        }
+        .minicalendar .day:hover {
+            background:#DCDCDC;
+            }
+    .minicalendar .weekend {
+
+        }
+    .minicalendar .today {
+        font-weight:bold;
+        color:#111;
+        }
+        .minicalendar .today a {
+            color:#111;
+            }
+    .minicalendar .event {
+        font-weight:bold;
+        color:#333;
+        }
+        .minicalendar .event a {
+            color:#333;
+            }
+    .minicalendar .dayblank {
+
+        }
+
+/* Переключатель месяцев
+---------------------------------------- */
+
+.block_calendar_month .calendar-controls {
+    position:relative;
+    margin-bottom:0.5em;
+    text-align:center;
+    vertical-align:middle;
+    }
+    .block_calendar_month .calendar-controls a {
+        color:#999;
+        }
+        .block_calendar_month .calendar-controls a:hover {
+            color:#333;
+            text-decoration:none;
+            }
+    .block_calendar_month .calendar-controls .arrow_link,
+    .block_calendar_month .calendar-controls .arrow {
+        padding:0 1ex;
+        }
+
+/* Всплывающее окно
+---------------------------------------- */
+
+.calendar-event-panel {
+    padding:5px;
+    background:#FFF;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    border:solid 1px #adadad;
+    -moz-box-shadow:0 0 5px #999;
+    box-shadow:0 0 5px #999;
+    }
+    .calendar-event-panel .yui3-overlay-content {
+        margin:0;
+        border:none;
+        background:none;
+        }
+    .eventtitle {
+        font-size:12px;
+        }
+    .calendar-event-panel .eventcontent {
+        text-align:left;
+        }

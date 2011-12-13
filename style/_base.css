@@ -95,7 +95,8 @@ strong {
 .skiplinks,
 .skip,
 .skip-block,
-.accesshide {
+.accesshide,
+.hide {
     position:absolute;
     left:-9999px;
     }
