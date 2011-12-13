@@ -38,6 +38,7 @@
             cursor:pointer;
             }
         .dockeditem .dockedtitle h2 {
+            font-size:12px;
             font-weight:normal;
             margin:0;
             color:#777;
@@ -83,6 +84,8 @@
     border-bottom:solid 1px rgba(0,0,0,0.15);
     }
     .dockeditempanel_hd h2 {
+        font-size:12px;
+        margin-top:0;
         margin-bottom:0;
         text-shadow:#FFF 0px 1px 0px;   
         }
