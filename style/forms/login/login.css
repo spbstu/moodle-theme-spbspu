@@ -1,8 +1,8 @@
 .loginform input[type="text"],
 .loginform input[type="password"] {
-    width:14ex;
+    width:15ex;
     }
 .block_loginplus .footer,
 .block_login .footer {
-    margin-left:5.6em;
+    margin-left:48px;
     }

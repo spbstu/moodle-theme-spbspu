@@ -1,7 +1,8 @@
 .breadcrumb {
-    font-size:0.8em;
+    font-size:11px;
     }
     .breadcrumb ul {
+        font-size:11px;
         margin:0 0 1em;
         }
     .breadcrumb ul li {

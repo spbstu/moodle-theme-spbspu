@@ -8,6 +8,9 @@
     float:left;
     width:400px;
     }
+.loginerror {
+    margin-bottom:2em;
+    }
 /* Login Form */
 .loginpanel .loginform {
     width:350px;
@@ -81,6 +84,7 @@
     .signuppanel ol {
         font-size:1.1em;
         margin-left:-2em;
+        margin-top:1em;
         }
         .signuppanel li {
             margin-bottom:0.5em;

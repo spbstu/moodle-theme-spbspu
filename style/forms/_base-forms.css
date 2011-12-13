@@ -1,5 +1,4 @@
 form {
-    font-size:1.3em;
     }
 form .fld {
     overflow:hidden;
@@ -7,13 +6,13 @@ form .fld {
     }
 form .fld label {
     display:inline-block;
-    width:4em;
-    margin-right:1ex;
+    width:40px;
+    margin-right:8px;
     text-align:right;
     vertical-align:middle;
     }
 form .btn {
-    margin-left:4.4em;
+    margin-left:48px;
     margin-bottom:1em;
     }
 input[type="text"],
