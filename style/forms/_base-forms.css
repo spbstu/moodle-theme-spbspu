@@ -6,13 +6,13 @@ form .fld {
     }
 form .fld label {
     display:inline-block;
-    width:40px;
+    width:48px;
     margin-right:8px;
     text-align:right;
     vertical-align:middle;
     }
 form .btn {
-    margin-left:48px;
+    margin-left:56px;
     margin-bottom:1em;
     }
 input[type="text"],
