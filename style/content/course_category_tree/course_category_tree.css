@@ -1,0 +1,37 @@
+.course_category_tree {
+    margin-bottom:1em;
+    }
+.subcategories {
+    margin: 0 0 0 2em;
+    /*border-left:solid 1px #ededed;*/
+    }
+    .subcategories .category_label {
+        /*margin-left:1ex;*/
+        }
+.category {
+    margin-bottom:1em;
+    /*border:solid 1px #dbdbdb;*/
+    }
+.category_label {
+    font-size:16px;
+    /*padding:0 1ex;*/
+    /*background:#dbdbdb;*/
+    }
+.courses {
+    margin-left:2em;
+    }
+    .course {
+
+        }
+        .course_info {
+            display:inline;
+            margin:1ex;
+            }
+.course_category_tree .controls {
+    font-size:12px;
+    padding:3px 5px;
+    }
+    .course_category_tree .controls div {
+        display:inline-block;
+        margin-right:1em;
+        }
