@@ -49,7 +49,7 @@ echo $OUTPUT->doctype() ?>
                     } ?>
                 <h5 class="subtitle"><?php echo $tagline ?></h5>
 
-                <h2 class="site-name"><a href="/"><?php echo $PAGE->heading ?></a></h2>
+                <h2 class="site-name"><?php echo html_writer::link(new moodle_url('/'), $PAGE->heading); ?></h2>
             </div>
             <div id="userbar">
                     <?php if (isloggedin()) {
