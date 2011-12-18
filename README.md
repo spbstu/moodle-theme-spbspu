@@ -1,3 +1,3 @@
 # You can learn me
 
-Yet anothet theme for Moodle LMS
+Yet another theme for Moodle LMS
