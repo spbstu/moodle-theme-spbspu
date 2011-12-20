@@ -18,3 +18,23 @@
         width:100%;
         margin-right:10px;
         }
+
+.coursesearchbox {
+    margin:2em 0;
+    }
+    .coursesearchbox label {
+        font-size:24px;
+        display:block;
+        }
+    .coursesearchbox #shortsearchbox,
+    .coursesearchbox #navsearchbox,
+    .coursesearchbox #coursesearchbox {
+        font-size:20px;
+        width:80%;
+        margin-right:12px;
+        padding:3px;
+        border:solid 1px #dadada;
+        }
+    .coursesearchbox input {
+        font-size:20px;
+        }
