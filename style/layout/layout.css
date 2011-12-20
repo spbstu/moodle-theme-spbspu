@@ -2,6 +2,7 @@
 @import url(_footer.css);
 @import url(_userbar.css);
 @import url(_dock.css);
+@import url(sidebars/sidebars.css);
 #wrapper {
     background:url("../../pix/bg/wrapper-bg.png") top left repeat-x;
     padding: 0 40px;
