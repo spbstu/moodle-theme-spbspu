@@ -158,11 +158,6 @@ echo $OUTPUT->doctype() ?>
                 <?php } ?>
             </div>
             <div id="footer-second">
-                <?php
-                echo $OUTPUT->login_info();
-                echo $OUTPUT->home_link();
-                echo $OUTPUT->standard_footer_html();?>
-                <p class="helplink"><?php echo page_doc_link(get_string('moodledocslink')) ?></p>
             </div>
     </div>
     </div>
