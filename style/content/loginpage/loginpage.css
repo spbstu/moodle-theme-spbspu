@@ -49,27 +49,8 @@
         display:inline-block;
         padding:0.5ex 5ex 0.5ex 1ex;
         background:#ffca39;
+        border-radius:4px;
         }
-        .guestsub .desc:before {
-            font-size:0;
-            position:absolute;
-            bottom:0;
-            right:0;
-            border:solid 6px;
-            border-color: transparent #FFF #FFF transparent;
-            content:".";
-            height:0;
-            }
-        .guestsub .desc:after {
-            font-size:0;
-            position:absolute;
-            top:0;
-            right:0;
-            border:solid 6px;
-            border-color:  #FFF #FFF transparent transparent;
-            content:".";
-            height:0;
-            }
 .guestsub form {
     margin-top:1em;
     margin-left:5em;
