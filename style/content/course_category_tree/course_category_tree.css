@@ -10,7 +10,7 @@
         /*margin-left:1ex;*/
         }
 .category {
-    margin: 0em .5em 0em 0;
+    margin: 0 .5em 0 0;
     /*padding-bottom:.5em;*/
     /*border:solid 1px #dbdbdb;*/
     /*border-radius:5px 5px 0 0;*/
@@ -52,20 +52,26 @@
             display:inline;
             margin:1ex;
             }
-.course_category_tree .controls {
-    font-size:12px;
-    padding:3px 5px;
-    }
-    .course_category_tree .controls div {
-        display:inline-block;
-        margin-right:1em;
-        cursor:pointer;
-        border-bottom:dotted 1px;
-        }
 .collapsed {
-    padding-bottom:0;
+padding-bottom:0;
     }
-.collapsed .courses,
-.collapsed .subcategories {
+    .collapsed .courses,
+    .collapsed .subcategories {
     display:none;
     }
+.course_category_tree .controls {
+    font-size:12px;
+    margin:12px 20px;
+    }
+    .course_category_tree .controls div {
+        font-size:10px;
+        display:inline-block;
+        margin-right:1em;
+        padding:3px 7px;
+        background:#dbdbdb;
+        border-radius:4px;
+        cursor:pointer;
+        }
+        .course_category_tree .controls div:hover {
+            background:#bdbdbd;
+            }
