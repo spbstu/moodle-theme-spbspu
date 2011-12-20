@@ -42,7 +42,7 @@
 .courses {
     margin-left:23px;
     }
-    .course {
+    .courses .course {
         padding-left:20px;
         background-image:url(../../../pix/icons/book-open.png);
         background-repeat:no-repeat;
