@@ -14,9 +14,16 @@
     }
 .category_label {
     font-size:16px;
-    /*padding:0 1ex;*/
-    /*background:#dbdbdb;*/
+    padding-left:1.2em;
+    background: url("../../../pix/icons/minus-white.png") left center no-repeat;
     }
+    .collapsed .category_label {
+        background-image:url(../../../pix/icons/plus-white.png);
+        }
+    .category_link {
+        display:block;
+        background:#FFF;
+        }
 .courses {
     margin-left:2em;
     }
@@ -34,4 +41,10 @@
     .course_category_tree .controls div {
         display:inline-block;
         margin-right:1em;
+        cursor:pointer;
+        border-bottom:dotted 1px;
         }
+.collapsed .courses,
+.collapsed .subcategories {
+    display:none;
+    }
