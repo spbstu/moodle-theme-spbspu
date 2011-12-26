@@ -8,9 +8,6 @@ $hassidepre = $PAGE->blocks->region_has_content('side-pre', $OUTPUT);
 $custommenu = $OUTPUT->custom_menu();
 $hascustommenu = (empty($PAGE->layout_options['nocustommenu']) && !empty($custommenu));
 
-spbspu_check_colourswitch();
-spbspu_initialise_colourswitcher($PAGE);
-
 $bodyclasses = array();
 $bodyclasses[] = 'spbspu-'.spbspu_get_colour();
 if (!$hassidepre) {
