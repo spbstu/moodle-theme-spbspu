@@ -3,33 +3,26 @@
     }
 .subcategories {
     margin: 0 0 0 20px;
-    /*border-left:solid 1px #ededed;*/
-    /*border-bottom:solid 1px #dbdbdb;*/
     }
     .subcategories .category_label {
-        /*margin-left:1ex;*/
         }
 .category {
     margin: 0 .5em 0 0;
-    /*padding-bottom:.5em;*/
-    /*border:solid 1px #dbdbdb;*/
-    /*border-radius:5px 5px 0 0;*/
     }
     .category:last-child {
-        /*border-bottom:none;*/
         }
 .category_label {
     font-size:16px;
-    padding-left:1.4em;
+    margin-left:1.4em;
     background: 3px center no-repeat;
-    /*border-bottom:solid 1px #c2c2c2;*/
     }
-    .with_children .category_label {
+    .with_children > .category_label {
         background-image: url("../../../pix/icons/minus-white.png");
+        margin-left:0;
+        padding-left:1.4em;
         }
-    .collapsed .category_label {
+    .collapsed > .category_label {
         background-image:url(../../../pix/icons/plus-white.png);
-        border-bottom:none;
         }
     .category_link {
         display:block;

@@ -39,7 +39,7 @@ echo $OUTPUT->doctype() ?>
     <link rel="stylesheet" href="<?php echo $CFG->wwwroot?>/theme/spbspu/style/moodle-theme.css">
 </head>
 <body id="<?php p($PAGE->bodyid) ?>" class="<?php p($PAGE->bodyclasses.' '.join(' ', $bodyclasses)) ?>">
-    <?php echo $OUTPUT->standard_top_of_body_html() ?>
+<?php echo $OUTPUT->standard_top_of_body_html() ?>
     <div id="page">
         <?php if ($hasheading) { ?>
         <div id="header">
