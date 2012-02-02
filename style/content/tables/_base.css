@@ -1,0 +1,29 @@
+.generaltable {
+    margin-bottom:1em;
+    border:solid 1px #DDD;
+}
+.generaltable .header {
+    padding:5px;
+    vertical-align:middle;
+    border-bottom:solid 1px #EAEAEA;
+}
+.generaltable .cell {
+    padding:3px 5px;
+    border-bottom:solid 1px #EAEAEA;
+}
+.generaltable .lastrow .cell {
+    border-bottom:none;
+}
+.generaltable thead {
+    background:#ECF0F1;
+}
+.generaltable .r0 {
+    background:#f9f9f9;
+}
+.generaltable .r1 {
+    background:#FFFFFF;
+}
+.generaltable .r0:hover,
+.generaltable .r1:hover {
+    background:#FFC;
+}
