@@ -12,6 +12,7 @@
         font-size:12px;
         display: inline-block;
         padding: 0 5px;
+        vertical-align:middle;
         border-left: solid 1px #c2c2c2;
         }
         .userbsar-links li:first-child {
@@ -37,7 +38,13 @@
 .user-messages-link-new  .user-messages-title {
     color:#C00;
     }
-
+#userbar .userimg {
+    display:inline-block;
+    height:26px;
+    width:26px;
+    margin-right:5px;
+    vertical-align:middle;
+    }
 #userbar img {
     float:none;
     vertical-align:middle;
