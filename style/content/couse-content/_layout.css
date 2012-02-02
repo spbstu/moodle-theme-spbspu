@@ -1,0 +1,17 @@
+.course-content {
+
+    }
+.weeks {
+
+    }
+.course-content ul.weeks li.section {
+    margin-bottom:1em;
+    padding-bottom:1em;
+    /*border-bottom:solid 3px #ededed;*/
+    }
+.course-content ul.weeks li.section .left {
+    width:1em;
+    }
+.course-content ul.weeks li.section .content {
+    margin-left:1em;
+    }
