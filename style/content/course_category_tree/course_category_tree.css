@@ -57,11 +57,11 @@ padding-bottom:0;
     margin:12px 20px;
     }
     .course_category_tree .controls div {
-        font-size:10px;
+        font-size:11px;
         display:inline-block;
-        margin-right:1em;
-        border-bottom:dotted 1px;
+        margin-right: 2ex;
         cursor:pointer;
+        border-bottom:dotted 1px;
         }
         .course_category_tree .controls div:hover {
             color:#4183C4;
