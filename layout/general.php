@@ -127,7 +127,9 @@ echo $OUTPUT->doctype() ?>
                 </div>
                 <?php } // End of if ($hasnavbar)?>
                 <!-- END DROP DOWN MENU -->
-
+                <?php 
+                    print_course_search('', false, 'short');
+                ?>
                 <?php if ($hastop) { ?>
                 <div id="region-post" class="block-region">
                     <div class="region-content">
