@@ -48,8 +48,7 @@ echo $OUTPUT->doctype() ?>
                         echo html_writer::link(new moodle_url('/'), "<img src='".$PAGE->theme->settings->logo."' alt='logo' class='logo' />");
                     } ?>
                 <h5 class="subtitle"><?php echo $tagline ?></h5>
-
-                <h2 class="site-name"><?php echo html_writer::link(new moodle_url('/'), $PAGE->heading); ?></h2>
+                <h2 class="site-name"><?php echo html_writer::link(new moodle_url('/'), $SITE->fullname); ?></h2>
             </div>
             <div id="userbar">
                     <?php if (isloggedin()) {
