@@ -8,10 +8,12 @@
     padding: 0 40px;
     }
 #page {
+    position:relative;
     min-width:910px;
     max-width:1280px;
     margin:auto;
     min-height:600px;
+    padding-top:64px;
     }
 
 #footer {
