@@ -15,9 +15,15 @@
     color:#333;
 }
     .categorybox .course .name {
+        display:-moz-inline-block;
+        display:inline-block;
         padding-left:20px;
         padding-bottom:0;
         background-image:url(../../../pix/icons/book-open.png);
         background-repeat:no-repeat;
         background-position:0 50%;
+    }
+    .categorybox .course .info {
+        display:-moz-inline-block;
+        display:inline-block;
     }
