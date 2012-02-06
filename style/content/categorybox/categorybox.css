@@ -1,0 +1,23 @@
+.categorybox {
+}
+.categorybox .image {
+    display:none;
+}
+.categorybox .category .name {
+    font-size:16px;
+    padding-left:20px;
+    padding-bottom:0;
+    background-image:url(../../../pix/icons/box.png);
+    background-repeat:no-repeat;
+    background-position:0 50%;
+}
+.categorybox .category .name a {
+    color:#333;
+}
+    .categorybox .course .name {
+        padding-left:20px;
+        padding-bottom:0;
+        background-image:url(../../../pix/icons/book-open.png);
+        background-repeat:no-repeat;
+        background-position:0 50%;
+    }
