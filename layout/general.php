@@ -102,7 +102,6 @@ echo $OUTPUT->doctype() ?>
                 </div>
             </div>
             <?php } ?>
-            
             <?php if ($hassidepre) { ?>
             <div id="region-pre" class="block-region">
                 <div class="region-content">
