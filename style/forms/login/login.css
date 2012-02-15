@@ -2,3 +2,25 @@
 .loginform input[type="password"] {
     width:14ex;
     }
+.loginform .rememberusername {
+    margin-left:55px;
+    margin-bottom:1em;
+    }
+.block_loginplus .footer {
+    font-size:12px;
+    padding-left:55px;
+    }
+.block_loginplus .subcontent {
+    text-align:center;
+    margin-bottom:1em;
+    padding:.5em;
+    background:#FFF;
+    border-radius:4px;
+    }
+    .block_loginplus .subcontent-header {
+        margin-bottom:.5em;
+        color:#000;
+        }
+.block_loginplus .loginform {
+    font-size:12px;
+    }
