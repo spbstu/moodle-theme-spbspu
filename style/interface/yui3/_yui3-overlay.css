@@ -1,0 +1,29 @@
+.yui3-overlay {
+    padding:8px;
+    background:#FFF;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    -khtml-border-radius:4px;
+    border-radius:4px;
+    border:solid 1px #ADADAD;
+    box-shadow: 0 0 10px #555;
+    }
+.yui3-widget-hd {
+    position:relative;
+    height:12px;
+    }
+    .yui3-widget-hd #closehelpbox {
+        position:absolute;
+        top:2px;
+        right:2px;
+        }
+.yui3-widget-bd {
+    font-size:13px;
+    }
+    .yui3-widget-bd h1 {
+        font-size:21px;
+        letter-spacing:0;
+        }
+    .yui3-widget-bd p:last-child {
+        margin-bottom:0;
+        }
