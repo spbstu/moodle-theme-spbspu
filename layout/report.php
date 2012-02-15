@@ -9,7 +9,7 @@ $custommenu = $OUTPUT->custom_menu();
 $hascustommenu = (empty($PAGE->layout_options['nocustommenu']) && !empty($custommenu));
 
 $bodyclasses = array();
-$bodyclasses[] = 'spbspu-'.spbspu_get_colour();
+//$bodyclasses[] = 'spbspu-'.spbspu_get_colour();
 if (!$hassidepre) {
     $bodyclasses[] = 'content-only';
 }
@@ -31,6 +31,7 @@ echo $OUTPUT->doctype() ?>
     <link rel="shortcut icon" href="<?php echo $OUTPUT->pix_url('favicon', 'theme')?>" />
     <meta name="description" content="<?php p(strip_tags(format_text($SITE->summary, FORMAT_HTML))) ?>" />
     <?php echo $OUTPUT->standard_head_html() ?>
+    <link rel="stylesheet" href="<?php echo $CFG->wwwroot?>/theme/spbspu/style/moodle-theme.css">
 </head>
 <body id="<?php p($PAGE->bodyid) ?>" class="<?php p($PAGE->bodyclasses.' '.join(' ', $bodyclasses)) ?>">
     <?php echo $OUTPUT->standard_top_of_body_html() ?>
