@@ -71,11 +71,11 @@ echo $OUTPUT->doctype() ?>
                             echo html_writer::end_tag('ul');;
                         }
                     ?>
-            </div>
-            <?php if($hasnavbar) { ?>
-            <div class="navbutton"> <?php echo $PAGE->button; ?></div>
-            <?php }?>
-            <div id="page-header-wrapper" class="wrapper clearfix">
+                <?php if($hasnavbar) { ?>
+                    <div class="navbutton"> <?php echo $PAGE->button; ?></div>
+                <?php }?>
+                </div>
+                <div id="page-header-wrapper" class="wrapper clearfix">
                 <?php if ($hasheading) { ?>
                 <div id="headermenu">
                 </div>
