@@ -23,3 +23,72 @@ input[type="password"] {
 select {
     max-width: 99%;
     }
+
+
+fieldset {
+    padding:8px;
+    border-bottom:solid 1px #dadada;
+    }
+    fieldset fieldset {
+        padding:0;
+        border:none;
+        }
+legend {
+    font-size:16px;
+    margin-left:215px;
+    padding:1em 0 0;
+    }
+.fitem {
+    }
+.fitemtitle {
+    position:relative;
+    display:inline-block;
+    width:200px;
+    margin-right:1ex;
+    padding-right:1ex;
+    text-align:right;
+    vertical-align:top;
+    color:#666;
+    }
+    .fitemtitle .req {
+        position:absolute;
+        right:-.5ex;
+        top:0px;
+        }
+.felement {
+    display:inline-block;
+    margin-bottom:1.5em;
+    }
+    .fstatic {
+        font-size:12px;
+        color:#000;
+        margin-top:-1em;
+        margin-bottom:0;
+        }
+.unmask label {
+    margin-left:1ex;
+    }
+.fdescription {
+    margin-left: 210px;
+    }
+#id_submitbutton {
+    color: white;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    border-color: #74BB5A;
+    border-bottom-color: #509338;
+    background: linear-gradient(#8ADD6D,#60B044);
+    background: -moz-linear-gradient(#8ADD6D,#60B044);
+    background: -webkit-linear-gradient(#8ADD6D,#60B044);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#8add6d',endColorstr='#60b044')";
+    background: linear-gradient(#8ADD6D,#60B044);
+    box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+    display: inline-block;
+    padding: 8px 15px;
+    line-height: normal;
+    border-radius: 3px;
+    border: 1px solid #DDD;
+    }
+.fitem .error {
+    font-size:12px;
+    color:#900;
+    }
