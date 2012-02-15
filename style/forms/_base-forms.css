@@ -41,10 +41,12 @@ legend {
 .fitem {
     }
 .fitemtitle {
+    line-height:1.15;
     position:relative;
     display:inline-block;
     width:200px;
-    margin-right:1ex;
+    margin-right:1.5ex;
+    margin-bottom:1em;
     padding-right:1ex;
     text-align:right;
     vertical-align:top;
@@ -54,6 +56,11 @@ legend {
         position:absolute;
         right:-.5ex;
         top:0px;
+        }
+    .fitemtitle .helplink {
+        position:absolute;
+        right:-.7ex;
+        top:0;
         }
 .felement {
     display:inline-block;
