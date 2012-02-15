@@ -72,8 +72,9 @@ echo $OUTPUT->doctype() ?>
                         }
                     ?>
             </div>
-
+            <?php if($hasnavbar) { ?>
             <div class="navbutton"> <?php echo $PAGE->button; ?></div>
+            <?php }?>
             <div id="page-header-wrapper" class="wrapper clearfix">
                 <?php if ($hasheading) { ?>
                 <div id="headermenu">
