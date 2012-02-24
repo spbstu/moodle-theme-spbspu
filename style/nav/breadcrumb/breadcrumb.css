@@ -1,9 +1,17 @@
 .breadcrumb {
+    float:left;
+    clear:both;
     font-size:11px;
+    margin-left:45px;
+    padding:2px 4px;
+    background:#dadada;
+    border:1px solid #adadad;
+    border-color:#adadad #fff #FFF #adadad;
+    border-radius:4px;
     }
     .breadcrumb ul {
         font-size:11px;
-        margin:0 0 1em;
+        margin:0;
         }
     .breadcrumb ul li {
         list-style:none;
@@ -12,4 +20,7 @@
         display:inline-block;
         margin:0;
         margin-right:1ex;
+        }
+    .breadcrumb a {
+        text-decoration:underline;
         }

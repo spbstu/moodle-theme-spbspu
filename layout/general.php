@@ -40,7 +40,7 @@ echo $OUTPUT->doctype() ?>
 </head>
 <body id="<?php p($PAGE->bodyid) ?>" class="<?php p($PAGE->bodyclasses.' '.join(' ', $bodyclasses)) ?>">
 <?php echo $OUTPUT->standard_top_of_body_html() ?>
-    <div id="page">
+    <div id="page" class="<?php if($hasnavbar){?>with-navbar<?php } else {?>without-navbar<?php } ?>">
         <?php if ($hasheading) { ?>
         <div id="header">
             <div class="header-wrapper">
@@ -50,6 +50,7 @@ echo $OUTPUT->doctype() ?>
                     } ?>
                 <h5 class="subtitle"><?php echo $tagline ?></h5>
                 <h2 class="site-name"><?php echo html_writer::link(new moodle_url('/'), $SITE->fullname); ?></h2>
+                 
             </div>
             <div id="userbar">
                     <?php if (isloggedin()) {
@@ -85,7 +86,12 @@ echo $OUTPUT->doctype() ?>
                 <h4 class="headermain inside"><?php echo $PAGE->heading ?></h4>
                 <?php } ?>
             <?php } // End of if ($hasheading)?>
+
             </div>
+            <?php if($hasnavbar) { ?>
+            <div class="breadcrumb"><?php if ($hasnavbar) echo $OUTPUT->navbar(); ?></div>
+            <?php } ?>
+
             </div>
         </div>
     <?php } // if ($hasheading) ?>
@@ -121,10 +127,7 @@ echo $OUTPUT->doctype() ?>
                     <?php if ($hascustommenu) { ?>
                     <div id="custommenu"><?php echo $custommenu; ?></div>
                     <?php } ?>
-                    <div class="navbar">
-                        <div class="breadcrumb"><?php if ($hasnavbar) echo $OUTPUT->navbar(); ?></div>
-                    </div>
-                </div>
+               </div>
                 <?php } // End of if ($hasnavbar)?>
                 <!-- END DROP DOWN MENU -->
                 <?php if ($hastop) { ?>

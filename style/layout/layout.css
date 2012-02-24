@@ -13,8 +13,13 @@
     max-width:1280px;
     margin:auto;
     min-height:600px;
-    padding-top:42px;
     }
+    .with-navbar {
+        padding-top:60px;
+        }
+    .without-navbar {
+        padding-top:42px;
+        }
 
 #footer {
 
