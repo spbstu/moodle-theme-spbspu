@@ -2,9 +2,11 @@
 ---------------------------------------- */
 
 .loginbox {
+    position:relative;
     overflow:hidden;
     }
 .loginpanel {
+    margin-top:150px;
     float:left;
     width:400px;
     }
@@ -38,6 +40,27 @@
     font-size:0.8em;
     margin-top:1em;
     }
+
+/*------------------------------
+ * Loginza hack
+ */
+
+.potentialidps {
+    position:absolute;
+    top:20px;
+    left:10px;
+    width:250px;
+    padding:16px;
+    text-align:center;
+    background:#fbf48e;
+    border-radius:8px;
+    box-shadow:0 0 8px #999;
+    }
+    .potentialidps h6 {
+        font-size:16px;
+        line-height:1;
+        margin-bottom:16px;
+        }
 
 /* For Guests */
 
