@@ -7,6 +7,28 @@
 .block h2 {
     margin-right:3em;
     }
-.block_action img {
+.block_action img,
+.block_action input{
+    width:16px;
+    height:16px;
     cursor:pointer;
+    background-image:url(../../../pix/icons/block-action.png);
     }
+    .block-hider-hide {
+        background-position:0 0;
+        }
+        .block:hover .block-hider-hide{
+            background-position:0 -32px;
+            }
+    .block-hider-show {
+        background-position:-32px 0;
+        }
+        .block:hover .block-hider-show{
+            background-position:-32px -32px;
+            }
+    .block_action .moveto {
+        background-position:-64px 0;
+        }
+        .block:hover .block_action .moveto{
+            background-position:-64px -32px;
+            }
