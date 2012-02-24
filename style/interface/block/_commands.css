@@ -1,12 +1,25 @@
 
 .commands {
-text-align:right;
+    position:absolute;
+    top:-27px;
+    right:8px;
+    z-index:100;
+    display:none;
+    padding:4px 4px 0;
+    text-align:right;
+    background:#fff;
+    border:1px solid #CCC;
+    border-bottom:none;
+    border-radius:4px 4px 0 0 ;
     }
     .commands a {
         margin:0 .5ex;
         }
+    .block_with_controls .commands {
+        display:block;
+        }
 .block .commands {
-    display:none;
+    /*display:none;*/
     }
     .block:hover .commands {
         display:block;

@@ -1,6 +1,5 @@
 .block_action {
     float:right;
-    display:none;
     }
     .block:hover .block_action {
         display:block;
