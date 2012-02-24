@@ -97,13 +97,18 @@
         font-size:12px;
         margin-top:0;
         margin-bottom:0;
+        text-align:center;
         text-shadow:#FFF 0px 1px 0px;   
         }
     .dockeditempanel_hd .commands {
         position:absolute;
         top:3px;
         right:5px;
+        display:block;
+        padding:0;
         vertical-align:middle;
+        background:none;
+        border:none;
         }
         .dockeditempanel_hd .commands a,
         .dockeditempanel_hd .commands img,
