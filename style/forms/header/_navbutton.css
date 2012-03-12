@@ -1,0 +1,24 @@
+.navbutton input[type="submit"] {
+    color: white;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    border-color: #74BB5A;
+    border-bottom-color: #509338;
+    background: linear-gradient(#8ADD6D,#60B044);
+    background: -moz-linear-gradient(#8ADD6D,#60B044);
+    background: -webkit-linear-gradient(#8ADD6D,#60B044);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#8add6d',endColorstr='#60b044')";
+    background: linear-gradient(#8ADD6D,#60B044);
+    box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+    display: inline-block;
+    padding: 4px 8px;
+    line-height: normal;
+    border-radius: 3px;
+    border: 1px solid #DDD;
+    }
+    .navbutton input:hover {
+        text-decoration:none;
+        background: linear-gradient(#a0e886, #7bcd5d);
+        background: -moz-linear-gradient(#a0e886, #7bcd5d);
+        background: -webkit-linear-gradient(#c1f7ad, #a7ed8d);
+        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#89e169',endColorstr='#5eb73d')";
+        }
