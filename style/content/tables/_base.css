@@ -1,29 +1,38 @@
-.generaltable {
+.generaltable,
+.editcourse {
     margin-bottom:1em;
     border:solid 1px #DDD;
 }
-.generaltable .header {
+.generaltable .header,
+.editcourse .header {
     padding:5px;
     vertical-align:middle;
     border-bottom:solid 1px #EAEAEA;
 }
-.generaltable .cell {
+.generaltable .cell,
+.editcourse .cell {
     padding:3px 5px;
     border-bottom:solid 1px #EAEAEA;
 }
-.generaltable .lastrow .cell {
+.generaltable .lastrow .cell,
+.editcourse .lastrow .cell {
     border-bottom:none;
 }
-.generaltable thead {
+.generaltable thead,
+.editcourse thead {
     background:#ECF0F1;
 }
-.generaltable .r0 {
+.generaltable .r0,
+.editcourse .r0 {
     background:#f9f9f9;
 }
-.generaltable .r1 {
+.generaltable .r1,
+.editcourse .r1 {
     background:#FFFFFF;
 }
 .generaltable .r0:hover,
-.generaltable .r1:hover {
+.generaltable .r1:hover,,
+.editcourse .r0:hover,
+.editcourse .r1:hover {
     background:#FFC;
 }
