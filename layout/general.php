@@ -37,6 +37,8 @@ echo $OUTPUT->doctype() ?>
     <meta name="description" content="<?php p(strip_tags(format_text($SITE->summary, FORMAT_HTML))) ?>" />
     <?php echo $OUTPUT->standard_head_html() ?>
     <link rel="stylesheet" href="<?php echo $CFG->wwwroot?>/theme/spbspu/style/moodle-theme.css">
+    <script type="text/javascript" src="<?php echo $CFG->wwwroot?>/theme/spbspu/javascript/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="<?php echo $CFG->wwwroot?>/theme/spbspu/javascript/spbstu.js"></script>
 </head>
 <body id="<?php p($PAGE->bodyid) ?>" class="<?php p($PAGE->bodyclasses.' '.join(' ', $bodyclasses)) ?>">
 <?php echo $OUTPUT->standard_top_of_body_html() ?>
