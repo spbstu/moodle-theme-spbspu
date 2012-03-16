@@ -37,7 +37,11 @@ echo $OUTPUT->doctype() ?>
     <meta name="description" content="<?php p(strip_tags(format_text($SITE->summary, FORMAT_HTML))) ?>" />
     <?php echo $OUTPUT->standard_head_html() ?>
     <link rel="stylesheet" href="<?php echo $CFG->wwwroot?>/theme/spbspu/style/moodle-theme.css">
+
+    <link rel="stylesheet" href="<?php echo $CFG->wwwroot?>/theme/spbspu/javascript/jquery.jscrollpane.css">
     <script type="text/javascript" src="<?php echo $CFG->wwwroot?>/theme/spbspu/javascript/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="<?php echo $CFG->wwwroot?>/theme/spbspu/javascript/jquery.mousewheel.js"></script>
+    <script type="text/javascript" src="<?php echo $CFG->wwwroot?>/theme/spbspu/javascript/jquery.jscrollpane.min.js"></script>
     <script type="text/javascript" src="<?php echo $CFG->wwwroot?>/theme/spbspu/javascript/spbstu.js"></script>
 </head>
 <body id="<?php p($PAGE->bodyid) ?>" class="<?php p($PAGE->bodyclasses.' '.join(' ', $bodyclasses)) ?>">

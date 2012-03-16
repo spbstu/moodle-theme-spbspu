@@ -2,7 +2,9 @@ $(function(){
     var admin_block = $('.block_adminblock'),
         admin_block_offset_init = 5,
         admin_block_offset = 85,
-        win = $(window);
+        win = $(window),
+        table_data = $('.generaltable'),
+        table_data_container = $('.generalbox');
 
     win.scroll(function() {
 
@@ -16,4 +18,10 @@ $(function(){
             })
         }
     });
+
+    if(table_data.width() > table_data_container.width()){
+        table_data_container.jScrollPane({
+            showArrows: true
+        });
+    }
 });

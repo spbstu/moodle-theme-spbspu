@@ -1,0 +1,140 @@
+/*
+ * CSS Styles that are needed by jScrollPane for it to operate correctly.
+ *
+ * Include this stylesheet in your site or copy and paste the styles below into your stylesheet - jScrollPane
+ * may not operate correctly without them.
+ */
+
+.jspContainer
+{
+	overflow: hidden;
+	position: relative;
+	padding-top:16px;
+}
+
+.jspPane
+{
+	position: absolute;
+}
+
+.jspVerticalBar
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 16px;
+	height: 100%;
+}
+
+.jspHorizontalBar
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 16px;
+}
+
+.jspVerticalBar *,
+.jspHorizontalBar *
+{
+	margin: 0;
+	padding: 0;
+}
+
+.jspCap
+{
+	display: none;
+}
+
+.jspHorizontalBar .jspCap
+{
+	float: left;
+}
+
+.jspTrack
+{
+	background: #dde;
+	position: relative;
+    background: -moz-linear-gradient(#a8a8a8,#c3c3c3);
+    background: -webkit-linear-gradient(#a8a8a8,#c3c3c3);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#a8a8a8',endColorstr='#c3c3c3')";
+    background: linear-gradient(#a8a8a8,#c3c3c3);
+}
+
+.jspDrag
+{
+	background: #bbd;
+	position: relative;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+	background: -moz-linear-gradient(#71b3e0,#4782b3);
+    background: -webkit-linear-gradient(#71b3e0,#4782b3);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#71b3e0',endColorstr='#4782b3')";
+    background: linear-gradient(#71b3e0,#4782b3);
+    border-radius:6px;
+}
+
+.jspHorizontalBar .jspTrack,
+.jspHorizontalBar .jspDrag
+{
+	float: left;
+	height: 100%;
+}
+
+.jspArrow
+{
+	text-indent: -20000px;
+	display: block;
+	padding: 0 4px;
+	cursor: pointer;
+	background-color: #b0b0b0;
+	background-position: center;
+	background-repeat:no-repeat;
+}
+
+.jspArrowLeft {
+	background-image: url(../pix/icons/arrow-transition-180.png);
+	border-radius:6px 0 0 0;
+}
+
+.jspArrowRight {
+	background-image: url(../pix/icons/arrow-transition.png);
+	border-radius:0 6px 0 0;
+}
+
+.jspArrow.jspDisabled
+{
+	cursor: default;
+}
+
+.jspVerticalBar .jspArrow
+{
+	height: 16px;
+}
+
+.jspHorizontalBar .jspArrow
+{
+	width: 16px;
+	float: left;
+	height: 100%;
+}
+
+.jspVerticalBar .jspArrow:focus
+{
+	outline: none;
+}
+
+.jspCorner
+{
+	background: #eeeef4;
+	float: left;
+	height: 100%;
+}
+
+/* Yuk! CSS Hack for IE6 3 pixel bug :( */
+* html .jspCorner
+{
+	margin: 0 -3px 0 0;
+}
