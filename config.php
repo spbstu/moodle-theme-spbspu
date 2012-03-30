@@ -174,3 +174,6 @@ $THEME->csspostprocess = 'spbspu_process_css';
 ///////////////////////////////////////////////////////////////
 
 $THEME->editor_sheets = array('editor');
+
+
+$THEME->blocksheets = true;
