@@ -1,0 +1,17 @@
+#region-top {
+    position:relative;
+}
+#region-top:after {
+    content: '.';
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+}
+#region-top .block {
+    float: left;
+    width: 47%;
+    min-width: 400px;
+    margin-right: 18px;
+}

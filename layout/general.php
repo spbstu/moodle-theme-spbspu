@@ -95,7 +95,7 @@ echo $OUTPUT->doctype() ?>
 
             </div>
             <?php if($hasnavbar) { ?>
-            <div class="breadcrumb"><?php if ($hasnavbar) echo $OUTPUT->navbar(); ?></div>
+            <div class="breadcrumb"><?php if ($hasnavbar) { echo $OUTPUT->navbar();} ?></div>
             <?php } ?>
 
             </div>
@@ -137,7 +137,7 @@ echo $OUTPUT->doctype() ?>
                 <?php } // End of if ($hasnavbar)?>
                 <!-- END DROP DOWN MENU -->
                 <?php if ($hastop) { ?>
-                <div id="region-post" class="block-region">
+                <div id="region-top" class="block-region">
                     <div class="region-content">
                         <?php echo $OUTPUT->blocks_for_region('top') ?>
                     </div>
