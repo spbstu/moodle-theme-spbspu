@@ -1,4 +1,11 @@
-
+.block_with_controls {
+    position:relative;
+    margin-top:36px;
+    padding:4px 8px 8px;
+    background:#FFF;
+    border:1px solid #CCC;
+    border-radius:4px;
+    }
 .commands {
     position:absolute;
     top:-27px;
@@ -21,6 +28,6 @@
 .block .commands {
     /*display:none;*/
     }
-    .block:hover .commands {
+    .block_setting:hover .commands {
         display:block;
         }

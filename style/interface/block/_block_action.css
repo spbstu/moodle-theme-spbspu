@@ -1,11 +1,13 @@
 .block_action {
-    float:right;
+    position: absolute;
+    right: 4px;
+    top:4px;
+    background: url(../../../pix/icons/gear-small.png);
+    background-repeat: no-repeat;
+    background-position: right top;
     }
-    .block:hover .block_action {
-        display:block;
-        }
-.block h2 {
-    margin-right:3em;
+    .block_action:hover {
+        background-position: right -999px;
     }
 .block_action img,
 .block_action input{
@@ -13,22 +15,35 @@
     height:16px;
     cursor:pointer;
     background-image:url(../../../pix/icons/block-action.png);
+    visibility: hidden;
     }
-    .block-hider-hide {
-        background-position:0 0;
+    .block_action:hover img,
+    .block_action:hover input{
+        visibility: visible;
+    }
+.block_action img {
+    width:auto !important;
+    height:auto !important;
+    }
+
+
+/*--- Icons ---*/
+
+.block-hider-hide {
+    background-position:0 0;
+    }
+    .block:hover .block-hider-hide{
+        background-position:0 -32px;
         }
-        .block:hover .block-hider-hide{
-            background-position:0 -32px;
-            }
-    .block-hider-show {
-        background-position:-32px 0;
+.block-hider-show {
+    background-position:-32px 0;
+    }
+    .block:hover .block-hider-show{
+        background-position:-32px -32px;
         }
-        .block:hover .block-hider-show{
-            background-position:-32px -32px;
-            }
-    .block_action .moveto {
-        background-position:-64px 0;
+.block_action .moveto {
+    background-position:-64px 0;
+    }
+    .block:hover .block_action .moveto{
+        background-position:-64px -32px;
         }
-        .block:hover .block_action .moveto{
-            background-position:-64px -32px;
-            }
