@@ -2,7 +2,7 @@
     position: absolute;
     right: 4px;
     top:4px;
-    background: url(../../../pix/icons/gear-small.png);
+    /*background: url(../../../pix/icons/gear-small.png);*/
     background-repeat: no-repeat;
     background-position: right top;
     }
@@ -15,7 +15,7 @@
     height:16px;
     cursor:pointer;
     background-image:url(../../../pix/icons/block-action.png);
-    visibility: hidden;
+    /*visibility: hidden;*/
     }
     .block_action:hover img,
     .block_action:hover input{
@@ -36,6 +36,7 @@
         background-position:0 -32px;
         }
 .block-hider-show {
+    display: none;
     background-position:-32px 0;
     }
     .block:hover .block-hider-show{
@@ -47,3 +48,9 @@
     .block:hover .block_action .moveto{
         background-position:-64px -32px;
         }
+.hidden .block-hider-show {
+    display: inline-block;
+}
+.hidden .block-hider-hide {
+    display: none;
+}
