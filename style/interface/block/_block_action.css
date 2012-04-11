@@ -1,7 +1,7 @@
 .block_action {
     position: absolute;
-    right: 4px;
-    top:4px;
+    right: 8px;
+    top:14px;
     /*background: url(../../../pix/icons/gear-small.png);*/
     background-repeat: no-repeat;
     background-position: right top;

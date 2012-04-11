@@ -1,6 +1,10 @@
 .block {
-    margin-bottom:2em;
+    margin-bottom:1em;
+    padding:8px;
     position: relative;
+    background:#FFF;
+    border:1px solid #CCC;
+    border-radius:4px;
     }
     .block:after {
         content:".";
@@ -10,6 +14,9 @@
         overflow:hidden;
         visibility:hidden;
         }
+.block.hidden h2 {
+    margin-bottom: 0;
+}
 
 
 /*--- Block header ---*/
