@@ -43,14 +43,22 @@ legend {
     padding:1em 0 0;
     }
 .fitem {
+    margin-bottom: 1.5em;
     }
+    .fitem:after {
+        content:".";
+        display:block;
+        clear: both;
+        height:0;
+        overflow: hidden;
+        visibility: hidden;
+        }
 .fitemtitle {
     line-height:1.15;
     position:relative;
-    display:inline-block;
+    float: left;
     width:200px;
     margin-right:1.5ex;
-    margin-bottom:1em;
     padding-right:1ex;
     text-align:right;
     vertical-align:top;
@@ -67,8 +75,7 @@ legend {
         top:0;
         }
 .felement {
-    display:inline-block;
-    margin-bottom:1.5em;
+    margin-left: 220px;
     }
     .fstatic {
         font-size:12px;
@@ -76,6 +83,14 @@ legend {
         margin-top:-1em;
         margin-bottom:0;
         }
+.fitem textarea {
+    width: 80%;
+    }
+.fpassword input[type="password"],
+.ftext input {
+    width: 80%;
+    max-width:350px;
+    }
 .unmask label {
     margin-left:1ex;
     }

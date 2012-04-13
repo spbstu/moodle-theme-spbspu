@@ -1,0 +1,30 @@
+.settingsform .form-item { 
+    margin-bottom: 1em;
+    }
+    .settingsform .form-item:after { 
+        content:".";
+        display:block;
+        clear: both;
+        height:0;
+        overflow: hidden;
+        visibility: hidden;
+        }
+    .settingsform .form-label {
+        float: left;
+        width: 200px;
+        margin-right:20px;
+        text-align:right;
+        }
+    .settingsform .form-setting {
+        margin-left: 220px;
+        }
+        .settingsform .form-setting .defaultsnext,
+        .settingsform .form-setting .form-defaultinfo {
+            display: inline;
+            margin-right:5px;
+            }
+    .settingsform .form-description {
+        font-size: 0.9em;
+        margin-left: 220px;
+        color:#999;
+        }
