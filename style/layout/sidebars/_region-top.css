@@ -1,6 +1,6 @@
 #region-top {
     position:relative;
-}
+    }
 #region-top:after {
     content: '.';
     display: block;
@@ -8,20 +8,44 @@
     height: 0;
     visibility: hidden;
     overflow: hidden;
-}
+    }
 @media all and (min-width: 1200px) {
     #region-top .block {
-        float: left;
+        display: inline-block;
         width: 47%;
         margin-right: 18px;
         padding: 0;
+        vertical-align: top;
         }
-}
+    #region-top .blockmovetarget {
+        display: inline-block;
+        width: 45%;
+        margin-top: 36px;
+        margin-right: 18px;
+        vertical-align: top;
+        }
+    #region-top .block_with_controls {
+
+        }
+        #region-top .block_with_controls .header,
+        #region-top .block_with_controls .content {
+            padding: 8px;
+            }
+    #region-top .blockannotation {
+        display: block;
+        width:47%;
+        }
+    }
 @media all and (min-width: 800px) and (max-width: 1200px) {
+    #region-top .blockmovetarget {
+        display:block;
+        width: auto;
+        margin-right: 0;
+        }
     #region-top .block {
-        float: none;
+        display:block;
         width:auto;
         margin-left: 0;
         padding: 0;
         }
-}
+    }

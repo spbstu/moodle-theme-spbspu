@@ -1,6 +1,6 @@
 .beingmoved {
     padding:8px 8px 25px;
-    background:#fbf48e;
+    background:#fbf48e !important;
     border-radius:5px 5px 0 0;
     }
     .beingmoved .commands {
