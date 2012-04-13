@@ -1,18 +1,50 @@
+/*
+ * Forum post
+ * 
+
+div.forumpost.cleafix.firstpost.starter
+    div.row.header.clearfix
+        div.left.picture
+            a>img.userpicture
+        div.topic.firstpost.starter
+            div.subject
+            div.author
+    div.row.maincontent.clearfix
+        div.left
+            div.grouppictures
+        div.no-overflow
+            div.posting.fullpost
+                POST
+                div.attachedimages
+    div.row.aside
+        div.left
+        div.options.clearfix
+            div.commands
+*/
+
+
 .forumpost {
     border:none;
     margin-bottom:1em;
     }
     .forumpost .header {
         overflow:hidden;
-        margin-bottom:1em;
+        margin-bottom:0;
         }
         .forumpost .header .picture {
-            margin-right:1ex;
+            margin-right:0;
             }
+            .forumpost .header .picture img {
+                margin:0;
+                width:30px;
+                height:30px;
+                }
         .forumpost .subject {
-            font-size:1.2em;
+            font-size:2.4em;
+            line-height:1;
             }
         .forumpost .author {
             font-size:0.9em;
+            margin: 10px 0 10px;
             color:#999;
             }
