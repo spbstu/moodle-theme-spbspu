@@ -5,6 +5,10 @@
 
     }
 .course-content ul.weeks li.section {
+    padding: 8px;
+    margin-bottom: 2em;
+    border:solid 1px #dadada;
+    border-radius:4px;
     margin-bottom:1em;
     padding-bottom:1em;
     /*border-bottom:solid 3px #ededed;*/
@@ -15,3 +19,20 @@
 .course-content ul.weeks li.section .content {
     margin-left:1em;
     }
+.course-content ul.section {
+    list-style: none;
+    }
+    .course-content ul.section li {
+        list-style: none;
+        margin-left: 0;
+        }
+.course-content .togglecompletion {
+    display: inline-block;
+    vertical-align: baseline;
+    }
+.course-content .topics .section.main {
+    padding: 8px;
+    margin-bottom: 2em;
+    border:solid 1px #dadada;
+    border-radius:4px;
+}
