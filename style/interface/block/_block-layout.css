@@ -1,6 +1,5 @@
 .block {
-    margin-bottom:1em;
-    padding:8px;
+    margin-bottom:2em;
     position: relative;
     }
     .block:after {
@@ -12,6 +11,7 @@
         visibility:hidden;
         }
     #sidebar .block {
+        padding:8px;
         background:#FFF;
         border:1px solid #CCC;
         border-radius:4px;
