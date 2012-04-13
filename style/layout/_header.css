@@ -7,6 +7,7 @@
     min-height:36px;
     padding:4px;
     background:#eee;
+    border-bottom: 1px solid #ADADAD;
     box-shadow: 0px 0 6px #999;
     }
 .header-wrapper {

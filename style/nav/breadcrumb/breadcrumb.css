@@ -1,8 +1,10 @@
 .breadcrumb {
-    float:left;
     clear:left;
     font-size:11px;
+    max-height: 16px;
     margin-left:45px;
+    margin-right: 300px;
+    overflow: hidden;
     padding:2px 4px;
     background:#dadada;
     border:1px solid #adadad;
@@ -17,7 +19,6 @@
         list-style:none;
         display:inline;
         zoom:1;
-        display:inline-block;
         margin:0;
         margin-right:1ex;
         }
