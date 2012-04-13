@@ -9,9 +9,19 @@
     visibility: hidden;
     overflow: hidden;
 }
-#region-top .block {
-    float: left;
-    width: 47%;
-    min-width: 400px;
-    margin-right: 18px;
+@media all and (min-width: 1200px) {
+    #region-top .block {
+        float: left;
+        width: 47%;
+        margin-right: 18px;
+        padding: 0;
+        }
+}
+@media all and (min-width: 800px) and (max-width: 1200px) {
+    #region-top .block {
+        float: none;
+        width:auto;
+        margin-left: 0;
+        padding: 0;
+        }
 }
