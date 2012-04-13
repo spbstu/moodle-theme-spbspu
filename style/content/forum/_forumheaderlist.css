@@ -1,0 +1,41 @@
+.path-mod-forum .forumheaderlist,
+.forumheaderlist {
+    border:none;
+    }
+    .forumheaderlist .header {
+        padding: 4px 2px;
+        border:none;
+        background:#dadada;
+        }
+    .path-mod-forum .forumheaderlist td,
+    .forumheaderlist td {
+        padding: 4px 8px;
+        border:none;
+        border-bottom: solid 1px #adadad;
+        vertical-align: top;
+        }
+    .path-mod-forum .forumheaderlist .topic {
+        font-size: 16px;
+        width: 40%;
+        }
+    .path-mod-forum .forumheaderlist .discussion .starter {
+        vertical-align:top;
+        }
+    .path-mod-forum .forumheaderlist .discussion .author {
+        white-space: normal;
+        }
+    .path-mod-forum .forumheaderlist .discussion .picture {
+        width:auto;
+        padding: 8px 0;
+        }
+        .path-mod-forum .forumheaderlist .discussion .picture img {
+            height:16px;
+            width:16px;
+            }
+    .path-mod-forum .forumheaderlist .discussion .replies {
+        text-align: center;
+        }
+    .path-mod-forum .forumheaderlist .discussion .lastpost {
+        white-space: normal;
+        text-align: left;
+        }
