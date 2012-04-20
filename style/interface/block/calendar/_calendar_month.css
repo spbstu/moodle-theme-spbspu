@@ -9,7 +9,7 @@
     width:100%;
     text-align:right;
     border-collapse:separate;
-    border-spacing:4px;
+    border-spacing:2px;
     }
     .minicalendar .weekdays th {
         /*font-weight:normal;*/
@@ -18,9 +18,11 @@
         color:#999;
         }
     .minicalendar .day {
+        font-size: 12px;
         padding:3px 5px 3px 2px;
         border-radius:3px;
         color:#999;
+        background:#eee;
         }
         .minicalendar .day:hover {
             background:#DCDCDC;
