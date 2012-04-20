@@ -80,3 +80,8 @@
     float:left;
     color:#666;
     }
+    .sidebar-hidden {
+        display: none;
+        /*width:0 !important;*/
+        /*overflow: hidden;*/
+        }
