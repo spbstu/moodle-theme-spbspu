@@ -7,19 +7,18 @@
 
 .minicalendar {
     width:100%;
-    text-align:right;
+    text-align:center;
     border-collapse:separate;
     border-spacing:2px;
     }
     .minicalendar .weekdays th {
         /*font-weight:normal;*/
         font-size:10px;
-        text-align:right;
         color:#999;
         }
     .minicalendar .day {
         font-size: 12px;
-        padding:3px 5px 3px 2px;
+        padding:3px;
         border-radius:3px;
         color:#999;
         background:#eee;
@@ -81,6 +80,15 @@
     -moz-box-shadow:0 0 5px #999;
     box-shadow:0 0 5px #999;
     }
+    .calendar-event-panel::before {
+        content:"";
+        position: absolute;
+        top:-16px;
+        left:50%;
+        margin-left: -8px;
+        border: solid 8px;
+        border-color: transparent transparent #FFF transparent;
+        }
     .calendar-event-panel .yui3-overlay-content {
         margin:0;
         border:none;
