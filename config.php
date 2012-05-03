@@ -74,45 +74,45 @@ $THEME->layouts = array(
     ),
     'standard' => array(
         'file' => 'general.php',
-        'regions' => array('side-pre', 'side-post', 'top'),
-        'defaultregion' => 'side-post'
+        'regions' => array('side', 'top'),
+        'defaultregion' => 'side'
     ),
     // Course page
     'course' => array(
         'file' => 'general.php',
-        'regions' => array('side-pre', 'side-post', 'top'),
-        'defaultregion' => 'side-post'
+        'regions' => array('side', 'top'),
+        'defaultregion' => 'side'
     ),
     // Course page
     'coursecategory' => array(
         'file' => 'general.php',
-        'regions' => array('side-pre', 'side-post', 'top'),
-        'defaultregion' => 'side-post'
+        'regions' => array('side', 'top'),
+        'defaultregion' => 'side'
     ),
     'incourse' => array(
         'file' => 'general.php',
-        'regions' => array('side-pre', 'side-post', 'top'),
-        'defaultregion' => 'side-post'
+        'regions' => array('side', 'top'),
+        'defaultregion' => 'side'
     ),
     'frontpage' => array(
         'file' => 'general.php',
-        'regions' => array('side-pre', 'side-post', 'top'),
-        'defaultregion' => 'side-post'
+        'regions' => array('side', 'top'),
+        'defaultregion' => 'side'
     ),
     'admin' => array(
         'file' => 'general.php',
-        'regions' => array('side-pre'),
-        'defaultregion' => 'side-pre'
+        'regions' => array('side'),
+        'defaultregion' => 'side'
     ),
     'mydashboard' => array(
         'file' => 'general.php',
-        'regions' => array('side-pre', 'side-post', 'top'),
-        'defaultregion' => 'side-post'
+        'regions' => array('side', 'top'),
+        'defaultregion' => 'side'
     ),
     'mypublic' => array(
         'file' => 'general.php',
-        'regions' => array('side-pre', 'side-post', 'top'),
-        'defaultregion' => 'side-post'
+        'regions' => array('side', 'top'),
+        'defaultregion' => 'side'
     ),
     'login' => array(
         'file' => 'general.php',

@@ -3,19 +3,16 @@
 $hasheading = ($PAGE->heading);
 $hasnavbar = (empty($PAGE->layout_options['nonavbar']) && $PAGE->has_navbar());
 $hasfooter = (empty($PAGE->layout_options['nofooter']));
-$hassidepre = $PAGE->blocks->region_has_content('side-pre', $OUTPUT);
-$hassidepost = $PAGE->blocks->region_has_content('side-post', $OUTPUT);
+$hasside = $PAGE->blocks->region_has_content('side', $OUTPUT);
 $hastop = $PAGE->blocks->region_has_content('top', $OUTPUT);
 
 $custommenu = $OUTPUT->custom_menu();
 $hascustommenu = (empty($PAGE->layout_options['nocustommenu']) && !empty($custommenu));
 
 $bodyclasses = array();
-if ($hassidepre && !$hassidepost) {
-    $bodyclasses[] = 'side-pre-only';
-} else if ($hassidepost && !$hassidepre) {
-    $bodyclasses[] = 'side-post-only';
-} else if (!$hassidepost && !$hassidepre) {
+if ($hasside) {
+    $bodyclasses[] = 'side-only';
+} else if (!$hasside) {
     $bodyclasses[] = 'content-only';
 }
 
@@ -114,20 +111,13 @@ echo $OUTPUT->doctype() ?>
 
         <!-- START OF CONTENT -->
         <div id="content">
-            <?php if ($hassidepre || $hassidepost) { ?>
+            <?php if ($hasside) { ?>
             <div id="sidebar">
 
-            <?php if ($hassidepost) { ?>
-            <div id="region-post" class="block-region">
-                <div class="region-content">
-                    <?php echo $OUTPUT->blocks_for_region('side-post') ?>
-                </div>
-            </div>
-            <?php } ?>
-            <?php if ($hassidepre) { ?>
+            <?php if ($hasside) { ?>
             <div id="region-pre" class="block-region">
                 <div class="region-content">
-                    <?php echo $OUTPUT->blocks_for_region('side-pre') ?>
+                    <?php echo $OUTPUT->blocks_for_region('side') ?>
                 </div>
             </div>
             <?php } ?>
