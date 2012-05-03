@@ -67,3 +67,8 @@ input[type="button"] {
 #id_submitbutton {
     padding: 8px 15px;
     }
+
+.buttons div,
+.buttons form {
+    display: inline-block;
+}
