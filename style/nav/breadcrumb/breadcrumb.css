@@ -6,7 +6,6 @@
     margin-left:45px;
     margin-right: 300px;
     padding:3px 4px 3px;
-    background:#dadada;
     }
     .breadcrumb ul {
         font-size:11px;
@@ -15,7 +14,7 @@
     .breadcrumb ul li {
         list-style:none;
         display:inline;
-        zoom:1;
-        margin:0;
         margin-right:1ex;
+        margin-left:0;
+        zoom:1;
         }
