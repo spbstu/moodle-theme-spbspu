@@ -81,7 +81,9 @@
     color:#666;
     }
     .sidebar-hidden {
-        display: none;
+        position: absolute;
+        left: -9999px;
+        /*display: none;*/
         /*width:0 !important;*/
         /*overflow: hidden;*/
         }

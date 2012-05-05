@@ -13,32 +13,33 @@ $(function(){
 
 YUI().use('node', 'event', function(Y) {
     var admin_block = Y.one('.block_adminblock'),
-        sidebar = Y.one('#sidebar'),
-        sidebarHeight;
+        sidebar = Y.one('#sidebar');
     
     if (admin_block) {
         admin_block.wrap('<div class="block_adminblock-container">').wrap('<div class="block_adminblock-wrapper">');
     }
 
     if (sidebar) {
-        sidebarHeight = sidebar.get('offsetHeight');
         Y.one(window).on('scroll', function(e) {
             controlSidebar();
         });
     }
 
     function controlSidebar() {
-        var body = Y.one('body');
-        if (sidebar.get('docScrollY') > sidebarHeight) {
-            if (sidebar.get('offsetHeight') > sidebarHeight) {
-                sidebarHeight = sidebar.get('offsetHeight');
-                return;
+        var body = Y.one('body'),
+            sidebarHeight = sidebar.get('offsetHeight');
+        if (sidebarHeight > 0) {
+            if (sidebar.get('docScrollY') >= sidebarHeight) {
+                if (sidebar.get('offsetHeight') > sidebarHeight) {
+                    sidebarHeight = sidebar.get('offsetHeight');
+                    return;
+                }
+                sidebar.addClass('sidebar-hidden');
+                body.addClass('content-only');
+            } else {
+                sidebar.removeClass('sidebar-hidden');
+                body.removeClass('content-only');
             }
-            sidebar.addClass('sidebar-hidden');
-            body.addClass('content-only');
-        } else {
-            sidebar.removeClass('sidebar-hidden');
-            body.removeClass('content-only');
         }
     }
 });
