@@ -19,6 +19,9 @@
 .course-content ul.weeks li.section .content {
     margin-left:1em;
     }
+.course-content ul.weeks li.section .weekdates {
+    margin-top: 1em;
+}
 .course-content ul.section {
     list-style: none;
     }
