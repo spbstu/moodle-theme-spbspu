@@ -14,7 +14,7 @@
 }
 .block_mycourses .unlist li .icon,
 .block_course_list .unlist li .icon {
-    margin-left: 4px;
+    margin-right: 4px;
 }
 .block_course_list a:link,
 .block_course_list a:visited {
