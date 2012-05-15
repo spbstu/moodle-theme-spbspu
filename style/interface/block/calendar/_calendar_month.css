@@ -74,21 +74,10 @@
 .calendar-event-panel {
     padding:5px;
     background:#FFF;
-    -moz-border-radius:4px;
     border-radius:4px;
     border:solid 1px #adadad;
-    -moz-box-shadow:0 0 5px #999;
     box-shadow:0 0 5px #999;
     }
-    .calendar-event-panel::before {
-        content:"";
-        position: absolute;
-        top:-16px;
-        left:50%;
-        margin-left: -8px;
-        border: solid 8px;
-        border-color: transparent transparent #FFF transparent;
-        }
     .calendar-event-panel .yui3-overlay-content {
         margin:0;
         border:none;
@@ -100,3 +89,6 @@
     .calendar-event-panel .eventcontent {
         text-align:left;
         }
+.calendar-event-panel .yui3-overlay-content .eventtitle {
+    font-size: 12px !important;
+}
