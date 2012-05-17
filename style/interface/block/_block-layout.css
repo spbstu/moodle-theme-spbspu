@@ -77,6 +77,17 @@
         -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#CBCBCB',endColorstr='#A7A7A7')";
         }
 
+.block_loginplus .footer a {
+    padding: 0;
+    background: none;
+    border: none;
+    text-shadow: none;
+}
+.block_loginplus .footer a:hover {
+    background: none;
+    text-decoration: underline;
+    }
+
 
 .block .newlink a {
     font-size: 13px;
