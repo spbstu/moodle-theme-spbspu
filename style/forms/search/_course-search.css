@@ -38,3 +38,32 @@
     .coursesearchbox input {
         font-size:20px;
         }
+
+#coursesearchnavbar {
+
+    }
+#coursesearchnavbar fieldset {
+    margin: 0;
+}
+#coursesearchnavbar label {
+    font-size:12px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#coursesearchnavbar #navsearchbox {
+    font-size:14px;
+    padding:3px;
+    display: inline-block;
+    width: 15em;
+    border: solid 1px #ACACAC;
+    background:#FFF;
+    margin-right:6px;
+}
+#coursesearchnavbar input[type="submit"] {
+    font-size: 12px;
+    display: inline-block;
+}
+
+
+
+
