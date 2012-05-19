@@ -1,11 +1,13 @@
 .breadcrumb {
     font-size:11px;
     position: relative;
-    top:1px;
-    max-height: 16px;
+    display: inline-block;
+    /*top:3px;*/
+    /*max-height: 17px;*/
     margin-left:45px;
-    margin-right: 300px;
-    padding:3px 4px 3px;
+    padding:0px 4px;
+    border:solid 1px #acacac;
+    border-radius:3px;
     }
     .breadcrumb ul {
         font-size:11px;
@@ -13,8 +15,28 @@
         }
     .breadcrumb ul li {
         list-style:none;
-        display:inline;
+        display:inline-block;
         margin-right:1ex;
         margin-left:0;
+        padding-left: 10px;
+        padding-top: 1px;
+        /*max-width:4em;
+        white-space:nowrap;
+        overflow: hidden;*/
         zoom:1;
+        background-image: url(../../../pix/bg/breadcrumb.png);
+        background-repeat: no-repeat;
+        background-position: -5px center;
+        }
+    .breadcrumb ul li:first-child {
+        max-width:none;
+        background: none;
+        padding-left:0;
+        }
+    .breadcrumb ul li:last-child {
+        max-width:none;
+        }
+
+    .breadcrumb .arrow {
+        display: none;
         }

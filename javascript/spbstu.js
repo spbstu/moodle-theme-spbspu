@@ -25,11 +25,15 @@ YUI().use('node', 'event', function(Y) {
         sidebar.all(".sidebar-content").addClass("sidebar-collapsed");
     }
 
-    sidebar.all(".sidebar-controls").on("click", function(e) {
-        toggleElement(e.target);
+    Y.one(window).on('load', function(e) {
+        stripBreadcrumb();
     });
 
     if (sidebar) {
+        sidebar.all(".sidebar-controls").on("click", function(e) {
+            toggleElement(e.target);
+        });
+
         Y.one(window).on('scroll', function(e) {
             controlSidebar();
         });
@@ -39,6 +43,20 @@ YUI().use('node', 'event', function(Y) {
         var target = el.getAttribute("rel");
 
         Y.all(target).toggleClass("sidebar-collapsed");
+    }
+
+    function stripBreadcrumb() {
+        var breadcrumbs = Y.all(".breadcrumb li")["_nodes"],
+            bc_text;
+
+        for (var i = 0, l = breadcrumbs.length; i < l; i++) {
+            bc_text = breadcrumbs[i].lastChild.innerHTML.split(" ");
+            if (bc_text.length > 3) {
+                breadcrumbs[i].lastChild.innerHTML = bc_text[0] + " ... " + bc_text[bc_text.length - 1];
+            }
+        }
+
+        // console.log(breadcrumbs);
     }
 
     function controlSidebar() {
