@@ -3,13 +3,81 @@
 @import url(_userbar.css);
 @import url(_dock.css);
 @import url(sidebars/sidebars.css);
+
+
+
+@media screen and (min-width: 1000px) {
+    #sidebar {
+        min-width:190px;
+        width:22%;
+        margin-right:36px;
+        padding: 0;
+        float:left;
+        background: none;
+        }
+        #sidebar .block {
+            float:none;
+            width: auto;
+            height:auto;
+            margin-left:0;
+            overflow: visible;
+            }
+        .sidebar-controls {
+            display: none;
+            }
+        #sidebar .sidebar-content {
+            overflow: visible;
+            height: auto;
+        }
+    #content {
+        min-height:300px;
+        padding:24px 36px;
+        background:#fff url("../../pix/bg/content-bg.png") 25% 0 repeat-y;
+        border:solid 1px #dbdbdb;
+        box-shadow:#CCC 0 0 6px;
+        }
+}
+@media screen and (max-width: 1000px) {
+    #sidebar {
+        float:none;
+        width:auto;
+        padding: 20px 20px 0;
+        margin-bottom: 20px;
+        overflow: hidden;
+        background: #dadada;
+        }
+        #sidebar h3 {
+            margin-top:0;
+            }
+        .sidebar-collapsed {
+            height:0;
+            overflow: hidden;
+            }
+        .sidebar-controls {
+            clear: both;
+            }
+        #sidebar .block {
+            float:left;
+            width: 250px;
+            height:200px;
+            margin-left:20px;
+            overflow: hidden;
+            }
+    #content {
+        min-height:300px;
+        padding:24px 0;
+        background:#fff url("../../pix/bg/content-bg.png") -600px 0 repeat-y;
+        border:solid 1px #dbdbdb;
+        box-shadow:#CCC 0 0 6px;
+        }
+}
 #wrapper {
     background:url("../../pix/bg/wrapper-bg.png") top left repeat-x;
     padding: 0 40px;
     }
 #page {
     position:relative;
-    min-width:910px;
+    /*min-width:910px;*/
     max-width:1280px;
     margin:auto;
     min-height:600px;
@@ -28,13 +96,6 @@
     width:100%;
     float:right;
     margin-left:-400px;
-    }
-#content {
-    min-height:300px;
-    padding:24px 36px;
-    background:#fff url("../../pix/bg/content-bg.png") 25% 0 repeat-y;
-    border:solid 1px #dbdbdb;
-    box-shadow:#CCC 0 0 6px;
     }
     .content-only #content {
         background-position:-450px 0;
@@ -74,10 +135,6 @@
                 margin-right:20px;
                 }
 #sidebar {
-    min-width:190px;
-    width:22%;
-    margin-right:36px;
-    float:left;
     color:#666;
     }
     .sidebar-hidden {

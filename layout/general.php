@@ -113,15 +113,15 @@ echo $OUTPUT->doctype() ?>
         <div id="content">
             <?php if ($hasside) { ?>
             <div id="sidebar">
-
-            <?php if ($hasside) { ?>
-            <div id="region-pre" class="block-region">
-                <div class="region-content">
-                    <?php echo $OUTPUT->blocks_for_region('side') ?>
+                <h3>Блоки</h3>
+                <div class="sidebar-content">
+                    <div id="region-pre" class="block-region">
+                        <div class="region-content">
+                            <?php echo $OUTPUT->blocks_for_region('side') ?>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <?php } ?>
-
+                <p class="sidebar-controls"><span class="show-sidebar" rel=".sidebar-content">Развернуть блоки</span></p>
             </div>
             <?php } ?>
 

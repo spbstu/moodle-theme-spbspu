@@ -13,11 +13,21 @@ $(function(){
 
 YUI().use('node', 'event', function(Y) {
     var admin_block = Y.one('.block_adminblock'),
-        sidebar = Y.one('#sidebar');
+        sidebar = Y.one('#sidebar'),
+        body = Y.one('body'),
+        body_width = parseInt(body.getStyle('width'), 10);
     
     if (admin_block) {
         admin_block.wrap('<div class="block_adminblock-container">').wrap('<div class="block_adminblock-wrapper">');
     }
+
+    if(body_width < 1024) {
+        sidebar.all(".sidebar-content").addClass("sidebar-collapsed");
+    }
+
+    sidebar.all(".sidebar-controls").on("click", function(e) {
+        toggleElement(e.target);
+    });
 
     if (sidebar) {
         Y.one(window).on('scroll', function(e) {
@@ -25,10 +35,16 @@ YUI().use('node', 'event', function(Y) {
         });
     }
 
+    function toggleElement(el) {
+        var target = el.getAttribute("rel");
+
+        Y.all(target).toggleClass("sidebar-collapsed");
+    }
+
     function controlSidebar() {
-        var body = Y.one('body'),
-            sidebarHeight = sidebar.get('offsetHeight');
-        if (sidebarHeight > 0) {
+        var sidebarHeight = sidebar.get('offsetHeight');
+
+        if (body_width > 1024 && sidebarHeight > 0) {
             if (sidebar.get('docScrollY') >= sidebarHeight) {
                 if (sidebar.get('offsetHeight') > sidebarHeight) {
                     sidebarHeight = sidebar.get('offsetHeight');
