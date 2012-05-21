@@ -1,32 +1,33 @@
 .breadcrumb {
     font-size:11px;
     position: relative;
-    display: inline-block;
+    /*display: inline-block;*/
     /*top:3px;*/
     /*max-height: 17px;*/
-    margin-left:45px;
-    padding:0px 4px;
-    border:solid 1px #acacac;
-    border-radius:3px;
+    margin-left:50px;
+    /*padding:0px 4px;*/
+    /*border:solid 1px #acacac;
+    border-radius:3px;*/
     }
     .breadcrumb ul {
+        display: inline-block;
         font-size:11px;
         margin:0;
         }
     .breadcrumb ul li {
         list-style:none;
         display:inline-block;
-        margin-right:1ex;
         margin-left:0;
-        padding-left: 10px;
-        padding-top: 1px;
-        /*max-width:4em;
-        white-space:nowrap;
-        overflow: hidden;*/
-        zoom:1;
+        padding: 0px 4px 0px 12px;
         background-image: url(../../../pix/bg/breadcrumb.png);
         background-repeat: no-repeat;
-        background-position: -5px center;
+        background-position: -8px center;
+        color:#999;
+        }
+    .breadcrumb a,
+    .breadcrumb span {
+        display: block;
+        padding: 6px 0;
         }
     .breadcrumb ul li:first-child {
         max-width:none;

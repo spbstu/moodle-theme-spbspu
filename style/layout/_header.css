@@ -54,7 +54,7 @@
         overflow: hidden;
         }
 .navbar {
-    padding:3px;
+    padding:0 3px;
     border-top:solid 1px #CACACA;
     background:#DeDeDe;
     }
@@ -70,6 +70,7 @@
 .navbutton {
     line-height:1;
     float:right;
+    margin-top:2px;
     margin-right:4px;
     }
     .navbutton input {
