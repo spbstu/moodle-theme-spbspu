@@ -18,7 +18,7 @@
         list-style:none;
         display:inline-block;
         margin-left:0;
-        padding: 0px 4px 0px 12px;
+        padding: 0 4px 0 12px;
         background-image: url(../../../pix/bg/breadcrumb.png);
         background-repeat: no-repeat;
         background-position: -8px center;
@@ -40,4 +40,41 @@
 
     .breadcrumb .arrow {
         display: none;
+        }
+.breadcrumb .has-popup {
+    position: relative;
+}
+.breadcrumb .breadcrumb-popup {
+    display: none;
+    position: absolute;
+    left:50%;
+    top:30px;
+    margin-left:-100px;
+    width: 200px;
+    padding: 10px;
+    background: #dadada;
+    border:solid 2px #FFF;
+    border-radius:4px;
+    z-index:1001;
+    }
+    .breadcrumb .has-popup:hover .breadcrumb-popup {
+        display: block;
+        }
+    .breadcrumb .breadcrumb-popup:before,
+    .breadcrumb .breadcrumb-popup:after {
+        content:"";
+        position: absolute;
+        left:50%;
+        top:-20px;
+        margin-left:-10px;
+        border:solid 10px;
+        border-color:transparent transparent #dadada transparent;
+        z-index: 1002;
+        }
+    .breadcrumb .breadcrumb-popup:after {
+        top:-24px;
+        margin-left: -12px;
+        border-width:12px;
+        border-color: transparent transparent #FFF transparent;
+        z-index: 999;
         }

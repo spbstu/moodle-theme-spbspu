@@ -46,17 +46,33 @@ YUI().use('node', 'event', function(Y) {
     }
 
     function stripBreadcrumb() {
-        var breadcrumbs = Y.all(".breadcrumb li")["_nodes"],
-            bc_text;
+        var breadcrumbs = Y.all(".breadcrumb li")["_nodes"];
+            // bc_text;
 
         for (var i = 0, l = breadcrumbs.length; i < l; i++) {
-            bc_text = breadcrumbs[i].lastChild.innerHTML.split(" ");
-            if (bc_text.length > 3) {
-                breadcrumbs[i].lastChild.innerHTML = bc_text[0] + " ... " + bc_text[bc_text.length - 1];
+            var bc_item = Y.one(breadcrumbs[i].lastChild),
+                bc_text = bc_item.getContent(),
+                bc_words = bc_text.split(" "),
+                bc_popup;
+
+            if (bc_words.length > 3) {
+                bc_item.setContent(bc_words[0] + " ... " + bc_words[bc_words.length - 1]);
+                bc_item.
+                    addClass('has-popup').
+                    setAttribute('data-title', bc_item.getAttribute('title')).
+                    removeAttribute('title');
+
+                bc_item.on('mouseenter', addPopup);
             }
         }
+    }
 
-        // console.log(breadcrumbs);
+    function addPopup(e) {
+        var el = e.currentTarget;
+
+        if (el.one('.breadcrumb-popup') === null) {
+            el.append("<span class='breadcrumb-popup'>" + el.getAttribute('data-title') + "</span>");
+        }
     }
 
     function controlSidebar() {
