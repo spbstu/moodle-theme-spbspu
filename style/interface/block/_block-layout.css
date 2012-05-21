@@ -77,12 +77,14 @@
         -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#CBCBCB',endColorstr='#A7A7A7')";
         }
 
+.block_login .footer a,
 .block_loginplus .footer a {
     padding: 0;
     background: none;
     border: none;
     text-shadow: none;
 }
+.block_login .footer a:hover,
 .block_loginplus .footer a:hover {
     background: none;
     text-decoration: underline;
