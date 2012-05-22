@@ -59,7 +59,7 @@ YUI().use('node', 'event', function(Y) {
                 bc_item.setContent(bc_words[0] + " ... " + bc_words[bc_words.length - 1]);
                 bc_item.
                     addClass('has-popup').
-                    setAttribute('data-title', bc_item.getAttribute('title')).
+                    setAttribute('data-title', bc_text).
                     removeAttribute('title');
 
                 bc_item.on('mouseenter', addPopup);
