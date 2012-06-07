@@ -1,9 +1,10 @@
 .loginform input[type="text"],
 .loginform input[type="password"] {
-    width:14ex;
+    width:90%;
     }
-.loginform .rememberusername {
-    margin-left:55px;
+.loginform .rememberusername,
+.loginform .btn {
+    margin-left:0;
     margin-bottom:1em;
     }
 .block_loginplus .footer {
@@ -23,3 +24,7 @@
 .block_loginplus .loginform {
     font-size:12px;
     }
+
+.loginform .fld label {
+    display: block;
+}
