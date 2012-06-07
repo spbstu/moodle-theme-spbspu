@@ -36,6 +36,9 @@
         border:solid 1px #dbdbdb;
         box-shadow:#CCC 0 0 6px;
         }
+    .content-only #content {
+        background-position:-450px 0;
+    }
     .lores-only {
         display: none;
     }
@@ -109,9 +112,6 @@
     float:right;
     margin-left:-400px;
     }
-    .content-only #content {
-        background-position:-450px 0;
-        }
     #content:after {
         content:".";
         display:block;
