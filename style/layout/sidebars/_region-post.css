@@ -14,7 +14,7 @@
         max-width:1280px;
         margin:0 auto;
         }
-.block_adminblock {
+.block_adminblock-wrapper .block_adminblock {
     position:absolute;
     z-index:2000;
     width: 240px;

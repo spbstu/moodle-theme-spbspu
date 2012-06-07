@@ -69,6 +69,8 @@
 
 .navbutton {
     line-height:1;
+    position: relative;
+    z-index: 100;
     float:right;
     margin-top:2px;
     margin-right:4px;
