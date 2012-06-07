@@ -43,28 +43,37 @@
 @media screen and (max-width: 1000px) {
     #sidebar {
         float:none;
+        position: absolute;
+        top:70px;
+        left: 0;
+        z-index: 100;
         width:auto;
-        padding: 20px 20px 0;
+        padding: 8px;
         margin-bottom: 20px;
         overflow: hidden;
         background: #dadada;
+        border-radius: 0 0 8px 0;
+        border: solid 1px #adadad;
+        border-style: solid solid solid none;
+        box-shadow: 0 0 5px #999;
         }
         #sidebar h3 {
             margin-top:0;
             }
         .sidebar-collapsed {
-            height:0;
-            overflow: hidden;
             }
+            .sidebar-collapsed .block {
+                display: none;
+                }
         .sidebar-controls {
-            clear: both;
+            height: 16px;
+            min-width: 16px;
+            margin-bottom: 1em;
+            background: url(../../pix/icons/collapse-left.png) right top no-repeat;
+            cursor: pointer;
             }
-        #sidebar .block {
-            float:left;
-            width: 250px;
-            height:200px;
-            margin-left:20px;
-            overflow: hidden;
+            .sidebar-collapsed .sidebar-controls {
+                background-image: url(../../pix/icons/expand-right.png);
             }
     #content {
         min-height:300px;

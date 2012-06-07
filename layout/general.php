@@ -113,7 +113,7 @@ echo $OUTPUT->doctype() ?>
         <div id="content">
             <?php if ($hasside) { ?>
             <div id="sidebar">
-                <h3 class="lores-only">Блоки</h3>
+                <div class="lores-only sidebar-controls" rel="#sidebar"></div>
                 <div class="sidebar-content">
                     <div id="region-pre" class="block-region">
                         <div class="region-content">
@@ -121,7 +121,6 @@ echo $OUTPUT->doctype() ?>
                         </div>
                     </div>
                 </div>
-                <p class="sidebar-controls lores-only"><span class="show-sidebar" rel=".sidebar-content">Развернуть блоки</span></p>
             </div>
             <?php } ?>
 

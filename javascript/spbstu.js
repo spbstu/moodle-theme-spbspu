@@ -22,7 +22,7 @@ YUI().use('node', 'event', function(Y) {
     }
 
     if(body_width < 1024) {
-        sidebar.all(".sidebar-content").addClass("sidebar-collapsed");
+        sidebar.addClass("sidebar-collapsed");
     }
 
     Y.one(window).on('load', function(e) {
