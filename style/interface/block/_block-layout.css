@@ -86,13 +86,13 @@
     border: none;
     text-shadow: none;
     background: none;
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(enabled=false)";;
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(enabled=false)";
 }
 .block_login .footer a:hover,
 .block_loginplus .footer a:hover {
     text-decoration: underline;
     background: none;
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(enabled=false)";;
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(enabled=false)";
     }
 
 
