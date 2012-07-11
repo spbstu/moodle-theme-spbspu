@@ -136,3 +136,15 @@
         float: left;
         width: 250px;
         }
+    
+    /*
+    Сокрытие сайдбара
+    */
+
+.content-only #sidebar {
+    margin-left: -9999px;
+    }
+    
+.content-only .main-content {
+    margin-left: 0;
+    }
