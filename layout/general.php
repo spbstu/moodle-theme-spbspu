@@ -111,6 +111,34 @@ echo $OUTPUT->doctype() ?>
 
         <!-- START OF CONTENT -->
         <div id="content">
+
+            <div class="content-box">
+                <div class="main-content">
+                    <!-- DROP DOWN MENU -->
+                    <?php if($hasnavbar) { ?>
+                    <div id="dropdownmenu">
+                        <?php if ($hascustommenu) { ?>
+                        <div id="custommenu"><?php echo $custommenu; ?></div>
+                        <?php } ?>
+                   </div>
+                    <?php } // End of if ($hasnavbar)?>
+                    <!-- END DROP DOWN MENU -->
+                    <?php if ($hastop) { ?>
+                    <div id="region-top" class="block-region">
+                        <div class="region-content">
+                            <?php echo $OUTPUT->blocks_for_region('top') ?>
+                        </div>
+                    </div>
+                    <?php } ?>
+
+                    <div id="region-main">
+                        <div class="region-content">
+                            <?php echo core_renderer::MAIN_CONTENT_TOKEN ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <?php if ($hasside) { ?>
             <div id="sidebar">
                 <div class="lores-only sidebar-controls" rel="#sidebar"></div>
@@ -124,34 +152,8 @@ echo $OUTPUT->doctype() ?>
             </div>
             <?php } ?>
 
-            <div class="content-box">
-                <!-- DROP DOWN MENU -->
-                <?php if($hasnavbar) { ?>
-                <div id="dropdownmenu">
-                    <?php if ($hascustommenu) { ?>
-                    <div id="custommenu"><?php echo $custommenu; ?></div>
-                    <?php } ?>
-               </div>
-                <?php } // End of if ($hasnavbar)?>
-                <!-- END DROP DOWN MENU -->
-                <?php if ($hastop) { ?>
-                <div id="region-top" class="block-region">
-                    <div class="region-content">
-                        <?php echo $OUTPUT->blocks_for_region('top') ?>
-                    </div>
-                </div>
-                <?php } ?>
-
-                <div id="region-main">
-                    <div class="region-content">
-                        <?php echo core_renderer::MAIN_CONTENT_TOKEN ?>
-                    </div>
-                </div>
-            </div>
-
         </div>
         <!-- END OF CONTENT -->
-        <div class="clearfix"></div>
 
     <!-- START OF FOOTER -->
     <?php if ($hasfooter) { ?>

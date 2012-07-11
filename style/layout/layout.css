@@ -6,153 +6,133 @@
 
 
 
-@media screen and (min-width: 1000px) {
-    #sidebar {
-        min-width:190px;
-        width:22%;
-        margin-right:36px;
-        padding: 0;
-        float:left;
-        background: none;
-        }
-        #sidebar .block {
-            float:none;
-            width: auto;
-            height:auto;
-            margin-left:0;
-            overflow: visible;
-            }
-        .sidebar-controls {
-            display: none;
-            }
-        #sidebar .sidebar-content {
-            overflow: visible;
-            height: auto;
-        }
-    #content {
-        min-height:300px;
-        padding:24px 36px;
-        background:#fff url("../../pix/bg/content-bg.png") 25% 0 repeat-y;
-        border:solid 1px #dbdbdb;
-        box-shadow:#CCC 0 0 6px;
-        }
-    .content-only #content {
-        background-position:-450px 0;
-    }
-    .lores-only {
-        display: none;
-    }
-}
-@media screen and (max-width: 1000px) {
-    #sidebar {
-        float:none;
-        position: absolute;
-        top:70px;
-        left: 0;
-        z-index: 100;
-        width:auto;
-        padding: 8px;
-        margin-bottom: 20px;
-        overflow: hidden;
-        background: #dadada;
-        border-radius: 0 0 8px 0;
-        border: solid 1px #adadad;
-        border-style: solid solid solid none;
-        box-shadow: 0 0 5px #999;
-        }
-        #sidebar h3 {
-            margin-top:0;
-            }
-        .sidebar-collapsed {
-            }
-            .sidebar-collapsed .block {
-                display: none;
-                }
-        .sidebar-controls {
-            height: 16px;
-            min-width: 16px;
-            margin-bottom: 1em;
-            background: url(../../pix/icons/collapse-left.png) right top no-repeat;
-            cursor: pointer;
-            }
-            .sidebar-collapsed .sidebar-controls {
-                background-image: url(../../pix/icons/expand-right.png);
-            }
-    #content {
-        min-height:300px;
-        padding:24px 0;
-        background:#fff url("../../pix/bg/content-bg.png") -600px 0 repeat-y;
-        border:solid 1px #dbdbdb;
-        box-shadow:#CCC 0 0 6px;
-        }
-}
+/*@media screen and (min-width: 1000px) {*/
+    /*#sidebar {*/
+        /*min-width:190px;*/
+        /*width:22%;*/
+        /*margin-right:36px;*/
+        /*padding: 0;*/
+        /*float:left;*/
+        /*background: none;*/
+        /*}*/
+        /*#sidebar .block {*/
+            /*float:none;*/
+            /*width: auto;*/
+            /*height:auto;*/
+            /*margin-left:0;*/
+            /*overflow: visible;*/
+            /*}*/
+        /*.sidebar-controls {*/
+            /*display: none;*/
+            /*}*/
+        /*#sidebar .sidebar-content {*/
+            /*overflow: visible;*/
+            /*height: auto;*/
+        /*}*/
+    /*#content {*/
+        /*min-height:300px;*/
+        /*padding:24px 36px;*/
+        /*background:#fff;*/
+        /*border:solid 1px #dbdbdb;*/
+        /*box-shadow:#CCC 0 0 6px;*/
+        /*}*/
+    /*.content-only #content {*/
+        /*background-position:-450px 0;*/
+    /*}*/
+    /*.lores-only {*/
+        /*display: none;*/
+    /*}*/
+/*}*/
+/*@media screen and (max-width: 1000px) {*/
+    /*#sidebar {*/
+        /*float:none;*/
+        /*position: absolute;*/
+        /*top:70px;*/
+        /*left: 0;*/
+        /*z-index: 100;*/
+        /*width:auto;*/
+        /*padding: 8px;*/
+        /*margin-bottom: 20px;*/
+        /*overflow: hidden;*/
+        /*background: #dadada;*/
+        /*border-radius: 0 0 8px 0;*/
+        /*border: solid 1px #adadad;*/
+        /*border-style: solid solid solid none;*/
+        /*box-shadow: 0 0 5px #999;*/
+        /*}*/
+        /*#sidebar h3 {*/
+            /*margin-top:0;*/
+            /*}*/
+        /*.sidebar-collapsed {*/
+            /*}*/
+            /*.sidebar-collapsed .block {*/
+                /*display: none;*/
+                /*}*/
+        /*.sidebar-controls {*/
+            /*height: 16px;*/
+            /*min-width: 16px;*/
+            /*margin-bottom: 1em;*/
+            /*background: url(../../pix/icons/collapse-left.png) right top no-repeat;*/
+            /*cursor: pointer;*/
+            /*}*/
+            /*.sidebar-collapsed .sidebar-controls {*/
+                /*background-image: url(../../pix/icons/expand-right.png);*/
+            /*}*/
+    /*#content {*/
+        /*min-height:300px;*/
+        /*padding:24px 0;*/
+        /*background:#fff;*/
+        /*border:solid 1px #dbdbdb;*/
+        /*box-shadow:#CCC 0 0 6px;*/
+        /*}*/
+/*}*/
+
 #wrapper {
-    background:url("../../pix/bg/wrapper-bg.png") top left repeat-x;
+    background:#FFF;
     padding: 0 40px;
     }
 #page {
     position:relative;
-    /*min-width:910px;*/
     max-width:1280px;
-    margin:auto;
     min-height:600px;
+    margin:auto;
     }
     .with-navbar {
-        padding-top:60px;
+        padding-top:72px;
         }
     .without-navbar {
         padding-top:42px;
         }
-
 #footer {
 
     }
-#content-wrap {
-    width:100%;
-    float:right;
-    margin-left:-400px;
+
+#content {
+    min-width: 960px;
+    max-width: 1280px;
+    background: #FFF;
     }
     #content:after {
-        content:".";
-        display:block;
-        clear:both;
-        height:0;
-        overflow:hidden;
+        content: "";
+        display: block;
+        clear: both;
+        height: 0;
+        overflow: hidden;
+        visibility: hidden;
         }
+   
     .content-box {
-        position:relative;
-        padding-left:48px;
-        overflow:hidden;
+        float: right;
+        width: 100%;
+        margin-left: -250px;
         }
-        .content-box .generalbox {
-            position:relative;
-            overflow-x:auto;
-            }
-    .content-box-side {
-        width:602px;
-        float:left;
+    .main-content {
+        margin: 0 0 0 250px;
+        padding: 16px;
+        border: solid 8px #EFEFEF;
+        border-style: none none none solid;
         }
-        .content-box-inside {
-            float:right;
-            width:416px;
-            }
-    .columns {
-        overflow:hidden;
-        }
-        .columns .column {
-            float:left;
-            width:288px;
-            }
-            .columns .column:nth-child(odd) {
-                margin-right:20px;
-                }
-#sidebar {
-    color:#666;
-    }
-    .sidebar-hidden {
-        position: absolute;
-        left: -9999px;
-        /*display: none;*/
-        /*width:0 !important;*/
-        /*overflow: hidden;*/
+    #sidebar {
+        float: left;
+        width: 250px;
         }

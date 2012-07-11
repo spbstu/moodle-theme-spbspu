@@ -135,3 +135,33 @@
     .dockeditempanel_bd table {
         margin:0;
         }
+
+/*
+    -----------------------
+    Vertical Dock
+    -----------------------
+*/
+
+.dock_left_vertical {
+    font-size:11px;
+    position:absolute;
+    top:80px;
+    left:0;
+    padding-bottom: 40px;
+    z-index:1000;
+    display:none;
+    }
+    .has_dock_left_vertical #dock {
+        display:block;
+    }
+.dock_left_vertical .dockeditem_container {
+    display: block;
+}
+.dock_left_vertical .dockeditem {
+    display: block;
+}
+.dock_left_vertical .controls {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

@@ -9,7 +9,8 @@
 body {
     font:normal 14px/1.5 sans-serif;
     line-height:1.5 !important;
-    background:#EFEFEF url("../pix/bg/body-bg.png") center 27px;
+    /*background:#EFEFEF url("../pix/bg/body-bg.png") center 27px;*/
+    background:#EFEFEF center 27px;
     color:#2c2c2c;
     }
 p {

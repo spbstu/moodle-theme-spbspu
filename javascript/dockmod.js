@@ -12,6 +12,6 @@
 
 function customise_dock_for_theme() {
     var dock = M.core_dock;
-    dock.cfg.position = 'top';
-    dock.cfg.orientation = 'horizontal';
+    dock.cfg.position = 'left';
+    dock.cfg.orientation = 'vertical';
 }
