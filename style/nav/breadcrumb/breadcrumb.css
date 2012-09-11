@@ -1,13 +1,7 @@
 .breadcrumb {
     font-size:11px;
     position: relative;
-    /*display: inline-block;*/
-    /*top:3px;*/
-    /*max-height: 17px;*/
     margin-left:50px;
-    /*padding:0px 4px;*/
-    /*border:solid 1px #acacac;
-    border-radius:3px;*/
     }
     .breadcrumb ul {
         display: inline-block;
@@ -18,16 +12,23 @@
         list-style:none;
         display:inline-block;
         margin-left:0;
-        padding: 0 4px 0 12px;
-        background-image: url(../../../pix/bg/breadcrumb.png);
-        background-repeat: no-repeat;
-        background-position: -8px center;
         color:#999;
         }
     .breadcrumb a,
     .breadcrumb span {
-        display: block;
-        padding: 6px 0;
+        font-variant: small-caps;
+        display: inline-block;
+        padding: 6px 2px;
+        border-right: solid 1px transparent;
+        border-left: solid 1px transparent;
+        text-decoration: none;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        }
+        .breadcrumb a:hover {
+            background: #E4E1D2;
+            border-right-color: #c7c7af;
+            border-left-color: #c7c7af;
         }
     .breadcrumb ul li:first-child {
         max-width:none;
@@ -39,7 +40,19 @@
         }
 
     .breadcrumb .arrow {
-        display: none;
+        font-size: 0;
+        width: 0;
+        display: inline-block;
+        padding: 0;
+        padding-right: 14px;
+        }
+        .breadcrumb .arrow:after,
+        .breadcrumb .arrow:after {
+            font-size: 14px;
+            display: inline;
+            content: "⇝";
+            padding-left: 3px;
+            color: #999;
         }
 .breadcrumb .has-popup {
     position: relative;
