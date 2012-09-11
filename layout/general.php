@@ -160,7 +160,10 @@ echo $OUTPUT->doctype() ?>
     <div id="footer">
         <div id="footer-wrapper">
             <div id="footer-first">
-                <p>© 2011 СПбГПУ</p>
+                <div class="copyright">
+                    <p><span class="date">© 2011-<?php echo date('Y'); ?></span>Санкт-Петербургский государственный политехнический университет</p>
+                    <p>Департамент методического обеспечения</p>
+                </div>
                 <?php if ($hasfootnote) { ?>
                     <div id="footnote"><?php echo $PAGE->theme->settings->footnote; ?></div>
                 <?php } ?>

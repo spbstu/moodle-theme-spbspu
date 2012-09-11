@@ -1,6 +1,7 @@
 #footer {
     overflow:hidden;
     padding:20px 10px;
+    background: #FFF;
     }
 #footer-first {
     float:left;
@@ -11,6 +12,20 @@
 #footer-second {
     float:right;
     }
+
+.copyright {
+    font-size: 12px;
+    color: #999;
+    }
+    .copyright p {
+        margin-left: 110px;
+        }
+    .copyright .date {
+        float: left;
+        width: 100px;
+        margin-left: -110px;
+        text-align: right;
+        }
 
 
 .footer-sitelinks ul {
