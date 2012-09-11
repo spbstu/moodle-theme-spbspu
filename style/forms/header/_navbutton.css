@@ -1,5 +1,9 @@
 .navbutton input[type="submit"] {
     color: #575551;
+    display: inline-block;
+    padding: 4px 8px;
+    line-height: normal;
+    text-shadow: none;
     border:solid 1px;
     border-color: #A7A7A7;
     border-bottom-color: #939393;
@@ -7,15 +11,12 @@
     background: -webkit-linear-gradient(#E0D9CC,#c4bfb5);
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#E0D9CC',endColorstr='#c4bfb5')";
     background: linear-gradient(#E0D9CC,#c4bfb5);
-    display: inline-block;
-    padding: 4px 8px;
-    line-height: normal;
     border-radius: 3px;
     }
     .navbutton input:hover {
         text-decoration:none;
-        background: linear-gradient(#c4bfb5, #a8a49d);
         background: -moz-linear-gradient(#c4bfb5, #a8a49d);
         background: -webkit-linear-gradient(#c4bfb5, #a8a49d);
         -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#c4bfb5',endColorstr='#a8a49d')";
+        background: linear-gradient(#c4bfb5, #a8a49d);
         }
