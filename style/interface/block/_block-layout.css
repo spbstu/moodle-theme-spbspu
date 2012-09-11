@@ -12,12 +12,12 @@
         }
     #sidebar .block {
         /*padding:8px;*/
-        border-bottom: solid 8px #EFEFEF;
+        border-bottom: solid 8px #F1EADD;
         }
         #sidebar .block .header {
             padding: 8px 8px 0;
-            border-bottom: solid 1px #dadada;
-            box-shadow: 0 0 4px #dadada;
+            border-bottom: solid 1px #d6d0c7;
+            box-shadow: 0 0 4px #d6d0c7;
         }
         #sidebar .block .content {
             padding: 8px;

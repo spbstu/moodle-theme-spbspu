@@ -6,9 +6,9 @@
     left:0;
     min-height:36px;
     padding:4px 0 0;
-    background:#eee;
+    background:#EDE6D6;
     border-bottom: 1px solid #ADADAD;
-    box-shadow: 0px 0 6px #999;
+    box-shadow: 0px 0 6px #AFA89B;
     }
 .header-wrapper {
     min-width:910px;
@@ -40,7 +40,7 @@
     }
 
 #header a {
-    color:#000;
+    color:#3a3326;
     }
 .logobar {
     padding-bottom: 3px;
@@ -56,7 +56,7 @@
 .navbar {
     padding:0 3px;
     border-top:solid 1px #CACACA;
-    background:#DeDeDe;
+    background:#E0D9CC;
     }
     .navbar:after {
         content:'.';

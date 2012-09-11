@@ -21,10 +21,10 @@
         padding:3px;
         border-radius:3px;
         color:#999;
-        background:#eee;
+        background:#F0E9DC;
         }
         .minicalendar .day:hover {
-            background:#DCDCDC;
+            background: #d6d0c5;
             }
     .minicalendar .weekend {
 
@@ -44,7 +44,7 @@
             color:#333;
             }
     .minicalendar .dayblank {
-        background: #f6f6f6;
+        background: #F8F1E4;
         }
 
 /* Переключатель месяцев

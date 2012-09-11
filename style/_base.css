@@ -10,7 +10,7 @@ body {
     font:normal 14px/1.5 sans-serif;
     line-height:1.5 !important;
     /*background:#EFEFEF url("../pix/bg/body-bg.png") center 27px;*/
-    background:#EFEFEF center 27px;
+    background:#F1EADD center 27px;
     color:#2c2c2c;
     }
 p {
@@ -22,14 +22,14 @@ h1 {
     line-height:1;
     margin:0 0 0.5em;
     letter-spacing:-2px;
-    color:#2d2c2c;
+    color:#3a3326;
     }
 h2 {
     font-size:24px;
     font-weight:normal;
     line-height:1.18;
     margin:1em 0 0.5em;
-    color:#000;
+    color:#3a3326;
     }
 .skiplinks + h2
     h2:first-child {
@@ -40,20 +40,24 @@ h3 {
     font-size:18px;
     font-weight:normal;
     margin:1.5em 0 0.5em;
+    color: #3a3326;
     }
 h4 {
     line-height:1;
     font-size:14px;
     font-weight:normal;
     margin:0 0 1em;
+    color: #3a3326;
     }
 h5 {
     font-size:0.9em;
     font-weight:normal;
+    color: #3a3326;
     }
 h6 {
     font-size:0.8em;
     font-weight:normal;
+    color: #3a3326;
     }
 .content-outer ul {
     margin:0 1em;
