@@ -1,7 +1,7 @@
 .breadcrumb {
     font-size:11px;
     position: relative;
-    margin-left:50px;
+    /*margin-left:50px;*/
     }
     .breadcrumb ul {
         display: inline-block;
@@ -18,7 +18,7 @@
     .breadcrumb span {
         font-variant: small-caps;
         display: inline-block;
-        padding: 6px 2px;
+        padding: 6px 12px;
         border-right: solid 1px transparent;
         border-left: solid 1px transparent;
         text-decoration: none;

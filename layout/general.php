@@ -60,7 +60,7 @@ echo $OUTPUT->doctype() ?>
                         <?php if (isloggedin()) {
                             echo html_writer::start_tag('div', array('id'=>"userbar"));
                             echo html_writer::start_tag('ul', array('class'=>"userbsar-links"));
-                            echo html_writer::tag('span', $OUTPUT->user_picture($USER, array('size'=>18)), array('class'=>'userimg'));
+                            echo html_writer::tag('span', $OUTPUT->user_picture($USER, array('size'=>16)), array('class'=>'userimg'));
                             echo html_writer::start_tag('li', array('id'=>'userdetails', 'class'=>'user-name current-user'));
                             echo html_writer::link(new moodle_url('/user/profile.php', array('id'=>$USER->id)), $USER->firstname.'&nbsp;'.$USER->lastname);
                             echo html_writer::end_tag('li');
@@ -160,10 +160,8 @@ echo $OUTPUT->doctype() ?>
     <div id="footer">
         <div id="footer-wrapper">
             <div id="footer-first">
-                <div class="copyright">
-                    <p><span class="date">© 2011-<?php echo date('Y'); ?></span>Санкт-Петербургский государственный политехнический университет</p>
-                    <p>Департамент методического обеспечения</p>
-                </div>
+                <p><span class="date">© 2011-<?php echo date('Y'); ?></span>Санкт-Петербургский государственный политехнический университет<br>
+                Департамент методического обеспечения</p>
                 <?php if ($hasfootnote) { ?>
                     <div id="footnote"><?php echo $PAGE->theme->settings->footnote; ?></div>
                 <?php } ?>

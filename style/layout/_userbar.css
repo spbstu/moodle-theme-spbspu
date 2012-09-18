@@ -1,19 +1,15 @@
 #userbar {
     float:right;
-    margin:0px 4px 4px;
-    padding:5px;
-    background:#EDE6D6;
-    border:solid 1px #d1cbbe;
-    border-radius:4px;
-    padding:4px;
+    margin:0 8px 4px;
+    text-transform: uppercase;
     }
 .userbsar-links {
     font-size:0;
     }
     .userbsar-links li {
-        font-size:12px;
+        font-size:11px;
         display: inline-block;
-        padding: 0 5px;
+        padding: 2px 5px 0;
         vertical-align:middle;
         border-left: solid 1px #c2c2c2;
         }
@@ -42,8 +38,8 @@
     }
 #userbar .userimg {
     display:inline-block;
-    height:20px;
-    width:20px;
+    height:17px;
+    width:16px;
     margin-right:5px;
     vertical-align:middle;
     }

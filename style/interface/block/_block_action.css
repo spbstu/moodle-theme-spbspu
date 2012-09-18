@@ -1,7 +1,7 @@
 .block_action {
     position: absolute;
-    right: 4px;
-    top:8px;
+    right: 6px;
+    top:4px;
     /*background: url(../../../pix/icons/gear-small.png);*/
     background-repeat: no-repeat;
     background-position: right top;
@@ -11,20 +11,20 @@
     }
 .block_action img,
 .block_action input{
-    width:16px;
-    height:16px;
-    margin-left: 3px;
+    width:10px;
+    height:10px;
+    margin-left: 2px;
     cursor:pointer;
     background-image:url(../../../pix/icons/block-action.png);
-    /*visibility: hidden;*/
+    background-color: #E4E1D2;
+    border: solid 1px #545252;
     }
     .block_action:hover img,
     .block_action:hover input{
-        visibility: visible;
     }
 .block_action img {
-    width:auto !important;
-    height:auto !important;
+    /*width:auto !important;*/
+    /*height:auto !important;*/
     }
 
 
@@ -34,20 +34,20 @@
     background-position:0 0;
     }
     .block:hover .block-hider-hide{
-        background-position:0 -32px;
+        background-position:0 -20px;
         }
 .block-hider-show {
     display: none;
-    background-position:-32px 0;
+    background-position:-20px 0;
     }
     .block:hover .block-hider-show{
-        background-position:-32px -32px;
+        background-position:-20px -20px;
         }
 .block_action .moveto {
-    background-position:-64px 0;
+    background-position:-40px -0px;
     }
     .block:hover .block_action .moveto{
-        background-position:-64px -32px;
+        background-position:-40px -20px;
         }
 .hidden .block-hider-show {
     display: inline-block;

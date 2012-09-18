@@ -1,32 +1,10 @@
 #footer {
+    font-size: 11px;
     overflow:hidden;
-    padding:20px 10px;
+    padding:10px 10px;
     background: #FFF;
+    text-align: center;
     }
-#footer-first {
-    float:left;
-    }
-    #footer-first p {
-        margin-bottom:0;
-        }
-#footer-second {
-    float:right;
-    }
-
-.copyright {
-    font-size: 12px;
-    color: #999;
-    }
-    .copyright p {
-        margin-left: 110px;
-        }
-    .copyright .date {
-        float: left;
-        width: 100px;
-        margin-left: -110px;
-        text-align: right;
-        }
-
 
 .footer-sitelinks ul {
     margin-bottom:10px;
