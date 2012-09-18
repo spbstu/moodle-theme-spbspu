@@ -1,105 +1,21 @@
 input[type="submit"] {
-    line-height: normal;
-    display: inline-block;
-    margin-left:4px;
-    padding: 4px 8px;
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
-    color: white;
-    border:solid 1px;
-    border-color: #24a727;
-    border-bottom-color: #509338;
-    border-radius: 3px;
-    background: #8ADD6D;
-    background: -webkit-linear-gradient(#8ADD6D,#60B044);
-    background: -moz-linear-gradient(#8ADD6D,#60B044);
-    background: -o-linear-gradient(#8ADD6D,#60B044);
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#8ADD6D',endColorstr='#60B044')";
-    background: linear-gradient(#8ADD6D,#60B044);
+    border: 1px #B1AFA1 solid;
+    padding: 4px 10px;
     }
-    input[type="submit"]:hover {
-        text-decoration:none;
-        background: #47CB47;
-        background: -webkit-linear-gradient(#47CB47, #24a727);
-        background: -moz-linear-gradient(#47CB47, #24a727);
-        background: -o-linear-gradient(#47CB47, #24a727);
-        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#47CB47',endColorstr='#24a727')";
-        background: linear-gradient(#47CB47, #24a727);
-        cursor: pointer;
-        }
 input[name="cancel"] {
-    border-color:#989898;
-    border-bottom-color:#989898;
-    background: #c3c3c3;
-    background: -webkit-linear-gradient(#c3c3c3,#a8a8a8);
-    background: -moz-linear-gradient(#c3c3c3,#a8a8a8);
-    background: -o-linear-gradient(#c3c3c3,#a8a8a8);
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#c3c3c3',endColorstr='#a8a8a8')";
-    background: linear-gradient(#c3c3c3,#a8a8a8);
+    border: 1px #B1AFA1 solid;
+    color: #999;
+    padding: 4px 10px;
     }
-    input[name="cancel"]:hover {
-        background: #b0b0b0;
-        background: -webkit-linear-gradient(#b0b0b0,#989898);
-        background: -moz-linear-gradient(#b0b0b0,#989898);
-        background: -o-linear-gradient(#b0b0b0,#989898);
-        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#b0b0b0',endColorstr='#989898')";
-        background: linear-gradient(#b0b0b0,#989898);
-        }
 input[type="button"] {
-    line-height: normal;
-    display: inline-block;
-    margin-left:4px;
-    padding: 4px 8px;
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
-    color: white;
-    border:solid 1px;
-    border-color: #0028a5;
-    border-bottom-color: #3a6d95;
-    border-radius: 3px;
-    background: #71b3e0;
-    background: -webkit-linear-gradient(#71b3e0,#4782b3);
-    background: -moz-linear-gradient(#71b3e0,#4782b3);
-    background: -o-linear-gradient(#71b3e0,#4782b3);
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#71b3e0',endColorstr='#4782b3')";
-    background: linear-gradient(#71b3e0,#4782b3);
+    border: 1px #B1AFA1 solid;
+    padding: 4px 10px;
     }
-    input[type="button"]:hover {
-        text-decoration:none;
-        background: #116cc8;
-        background: -webkit-linear-gradient(#116cc8, #116aa8);
-        background: -moz-linear-gradient(#116cc8, #116aa8);
-        background: -o-linear-gradient(#116cc8, #116aa8);
-        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#116cc8',endColorstr='#116aa8')";
-        background: linear-gradient(#116cc8, #116aa8);
-        cursor: pointer;
-        }
 
 .showadvancedbtn {
+    font-size: 14px;
     float: right;
     color: #999;
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.6);
-    border:solid 1px;
-    border-color: #A7A7A7;
-    border-bottom-color: #939393;
-    background: #DDD;
-    background: -webkit-linear-gradient(#DDD,#B0B0B0);
-    background: -moz-linear-gradient(#DDD,#B0B0B0);
-    background: -o-linear-gradient(#DDD,#B0B0B0);
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ddd',endColorstr='#B0B0B0')";
-    background: linear-gradient(#DDD,#B0B0B0);
-    /*box-shadow: 0 1px 4px rgba(0,0,0,0.2);*/
-    display: inline-block;
-    padding: 4px 8px;
-    line-height: normal;
-    border-radius: 3px;
-    }
-    .navbutton input:hover {
-        text-decoration:none;
-        background: #CBCBCB;
-        background: -webkit-linear-gradient(#CBCBCB, #A7A7A7);
-        background: -moz-linear-gradient(#CBCBCB, #A7A7A7);
-        background: -o-linear-gradient(#CBCBCB, #A7A7A7);
-        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#CBCBCB',endColorstr='#A7A7A7')";
-        background: linear-gradient(#CBCBCB, #A7A7A7);
     }
 
 /* Specific changes */
