@@ -128,13 +128,13 @@
         }
     .main-content {
         margin: 0 0 0 250px;
-        padding: 16px 5px;
+        padding: 0px 10px 16px;
         border-left: solid 1px #A9A89C;
         }
     #sidebar {
         float: left;
         padding-top: 4px;
-        width: 245px;
+        width: 238px;
         background: #FFF;
         }
     

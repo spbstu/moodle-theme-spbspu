@@ -15,9 +15,11 @@
         }
         #sidebar .block .header {
             padding: 4px;
-            text-align: center;
+            /*text-align: center;*/
             background: #E4E1D2;
-            border: solid 1px #A9A89C;
+            /*background: -webkit-gradient()#E4E1D2;*/
+            background: -webkit-linear-gradient(right bottom, #FFF, #FFF,  #E4E1D2);
+            border-bottom: solid 1px #A9A89C;
         }
         #sidebar .block .content {
             padding: 8px;

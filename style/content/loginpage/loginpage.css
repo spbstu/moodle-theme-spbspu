@@ -5,24 +5,34 @@
     position:relative;
     overflow:hidden;
     }
-.loginpanel {
-    margin-top:150px;
-    float:left;
-    width:400px;
+.loginsub {
+    margin-bottom: 18px;
     }
-.loginerror {
-    margin-bottom:2em;
+    .loginsub .desc {
+        font-size: 11px;
+        }
+    .loginsub .desc img {
+        vertical-align: middle;
+        }
+.loginpanel {
+    margin-top:130px;
+    width: 250px;
+    float:left;
+    }
+.loginerrors {
+    margin-bottom:12px;
+    text-align: center;
     }
 /* Login Form */
 .loginpanel .loginform {
-    width:350px;
-    padding-bottom:2em;
-    margin-bottom:1em;
-    border-bottom:solid 1px #999;
+    margin-bottom: 5px;
     }
 .loginpanel .form-label {
-    width:5em;
-    display:inline-block;
+    font-size: 12px;
+    float: left;
+    width:65px;
+    padding-top: 1px;
+    padding-right: 5px;
     text-align:right;
     vertical-align:middle;
     color:#999;
@@ -33,12 +43,25 @@
     vertical-align:middle;
     }
 .loginform .clearer {
-    height:1em;
+    clear: both;
     }
 .loginform .forgetpass {
     position:absolute;
-    font-size:0.8em;
     margin-top:1em;
+    }
+.loginform #loginbtn {
+    display: block;
+    margin-top: 20px;
+}
+.loginsub .rememberpass {
+    position: relative;
+    top: -48px;
+    font-size: 11px;
+    margin-left: 70px;
+    }
+.loginsub .forgetpass {
+    text-align: center;
+    font-size: 11px;
     }
 
 /*------------------------------
@@ -47,53 +70,54 @@
 
 #page-login-index .potentialidps {
     position:absolute;
-    top:20px;
-    left:10px;
-    width:250px;
-    padding:16px;
+    top:10px;
+    width:230px;
+    padding:7px;
     text-align:center;
-    background:#fbf48e;
-    border-radius:8px;
-    box-shadow:0 0 8px #999;
+    background:#E4E1D2;
+    border: solid 1px #A9A89C;
     }
     #page-login-index .potentialidps h6 {
-        font-size:16px;
+        font-size:14px;
         line-height:1;
         margin-bottom:16px;
+        }
+    #page-login-index .potentialidps a {
+        text-decoration: none;
+        }
+    #page-login-index .potentialidps a img {
+        position: relative;
+        top:3px;
         }
 
 /* For Guests */
 
 .guestsub {
-
+    border-top: solid 1px #A9A89C;
+    padding-top: 12px;
     }
     .guestsub .desc {
-        position:relative;
-        display:inline-block;
-        padding:0.5ex 5ex 0.5ex 1ex;
-        background:#ffca39;
-        border-radius:4px;
+        font-weight: bold;
+        text-align: center;
         }
 .guestsub form {
-    margin-top:1em;
-    margin-left:5em;
+    text-align: center;
     }
     .guestsub input {
         }
 
 /* Signup box */
 .signuppanel {
-    margin-left:500px;
+    border-left: solid 1px #A9A89C;
+    margin-left:255px;
+    padding: 10px;
     }
-    .signuppanel ol {
-        font-size:1.1em;
-        margin-left:-2em;
-        margin-top:1em;
+    .signuppanel h2 {
+        margin-top: 0;
         }
-        .signuppanel li {
-            margin-bottom:0.5em;
-            color:#000;
-            }
     .signuppanel .signupform {
         margin:2em 0 4em 0;
+        }
+    .signuppanel p {
+        max-width: 50em;
         }
