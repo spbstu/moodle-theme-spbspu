@@ -41,6 +41,9 @@ fieldset {
         padding: 0;
         border:none;
     }
+    fieldset.hidden {
+        border: none !important;
+        }
 legend {
     font-size:16px;
     margin-left:215px;
