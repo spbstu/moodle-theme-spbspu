@@ -19,7 +19,6 @@
     .minicalendar .day {
         font-size: 12px;
         padding:3px;
-        border-radius:3px;
         color:#999;
         background:#F0E9DC;
         }
@@ -51,6 +50,7 @@
 ---------------------------------------- */
 
 .block_calendar_month .calendar-controls {
+    font-size: 11px;
     position:relative;
     margin-bottom:0.5em;
     text-align:center;
@@ -58,10 +58,10 @@
     }
     .block_calendar_month .calendar-controls a {
         color:#999;
+        text-decoration: none;
         }
         .block_calendar_month .calendar-controls a:hover {
             color:#333;
-            text-decoration:none;
             }
     .block_calendar_month .calendar-controls .arrow_link,
     .block_calendar_month .calendar-controls .arrow {
