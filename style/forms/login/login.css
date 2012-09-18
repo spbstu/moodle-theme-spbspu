@@ -1,14 +1,32 @@
 .loginform input[type="text"],
 .loginform input[type="password"] {
-    width:90%;
+    font-size: 11px;
+    display: inline-block;
+    width: 150px;
+    padding: 2px;
+    border:solid 1px #B1AFA1;
     }
 .loginform .rememberusername,
 .loginform .btn {
-    margin-left:0;
-    margin-bottom:1em;
+    font-size: 11px;
+    margin-bottom: 4px;
+    margin-left: 68px;
     }
+.loginform .rememberusername {
+    }
+.loginform .fld {
+    margin-bottom: 5px;
+}
 .block_loginplus .footer {
     font-size:12px;
+    }
+.block_login .footer {
+    text-align: center;
+    }
+.block_login .footer div {
+    display: inline;
+    margin: 0 1ex;
+
     }
 .block_loginplus .subcontent {
     text-align:center;
@@ -26,5 +44,7 @@
     }
 
 .loginform .fld label {
-    display: block;
+    font-size: 12px;
+    width: 60px;
+    display: inline-block;
 }
