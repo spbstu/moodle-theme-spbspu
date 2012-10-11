@@ -6,5 +6,5 @@
 @import url(cource_list/cource_list.css);
 @import url(settings/settings.css);
 @import url(cource_contacts/cource_contacts.css);
-@import url(block_messages/block_messages.css);
-@import url(block_online_users/block_online_users.css);
+@import url(messages/block_messages.css);
+@import url(online_users/block_online_users.css);

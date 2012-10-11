@@ -1,91 +1,11 @@
 @import url(_header.css);
+@import url(_breadcrumb.css);
 @import url(_footer.css);
 @import url(_userbar.css);
 @import url(_dock.css);
 @import url(sidebars/sidebars.css);
-
-
-
-/*@media screen and (min-width: 1000px) {*/
-    /*#sidebar {*/
-        /*min-width:190px;*/
-        /*width:22%;*/
-        /*margin-right:36px;*/
-        /*padding: 0;*/
-        /*float:left;*/
-        /*background: none;*/
-        /*}*/
-        /*#sidebar .block {*/
-            /*float:none;*/
-            /*width: auto;*/
-            /*height:auto;*/
-            /*margin-left:0;*/
-            /*overflow: visible;*/
-            /*}*/
-        /*.sidebar-controls {*/
-            /*display: none;*/
-            /*}*/
-        /*#sidebar .sidebar-content {*/
-            /*overflow: visible;*/
-            /*height: auto;*/
-        /*}*/
-    /*#content {*/
-        /*min-height:300px;*/
-        /*padding:24px 36px;*/
-        /*background:#fff;*/
-        /*border:solid 1px #dbdbdb;*/
-        /*box-shadow:#CCC 0 0 6px;*/
-        /*}*/
-    /*.content-only #content {*/
-        /*background-position:-450px 0;*/
-    /*}*/
-    /*.lores-only {*/
-        /*display: none;*/
-    /*}*/
-/*}*/
-/*@media screen and (max-width: 1000px) {*/
-    /*#sidebar {*/
-        /*float:none;*/
-        /*position: absolute;*/
-        /*top:70px;*/
-        /*left: 0;*/
-        /*z-index: 100;*/
-        /*width:auto;*/
-        /*padding: 8px;*/
-        /*margin-bottom: 20px;*/
-        /*overflow: hidden;*/
-        /*background: #dadada;*/
-        /*border-radius: 0 0 8px 0;*/
-        /*border: solid 1px #adadad;*/
-        /*border-style: solid solid solid none;*/
-        /*box-shadow: 0 0 5px #999;*/
-        /*}*/
-        /*#sidebar h3 {*/
-            /*margin-top:0;*/
-            /*}*/
-        /*.sidebar-collapsed {*/
-            /*}*/
-            /*.sidebar-collapsed .block {*/
-                /*display: none;*/
-                /*}*/
-        /*.sidebar-controls {*/
-            /*height: 16px;*/
-            /*min-width: 16px;*/
-            /*margin-bottom: 1em;*/
-            /*background: url(../../pix/icons/collapse-left.png) right top no-repeat;*/
-            /*cursor: pointer;*/
-            /*}*/
-            /*.sidebar-collapsed .sidebar-controls {*/
-                /*background-image: url(../../pix/icons/expand-right.png);*/
-            /*}*/
-    /*#content {*/
-        /*min-height:300px;*/
-        /*padding:24px 0;*/
-        /*background:#fff;*/
-        /*border:solid 1px #dbdbdb;*/
-        /*box-shadow:#CCC 0 0 6px;*/
-        /*}*/
-/*}*/
+@import url(block/block.css);
+@import url(yui3/yui3.css);
 
 #wrapper {
     padding: 0 40px;
@@ -137,10 +57,7 @@
         width: 238px;
         background: #FFF;
         }
-    
-    /*
-    Сокрытие сайдбара
-    */
+
 
 .content-only #sidebar {
     margin-left: -9999px;

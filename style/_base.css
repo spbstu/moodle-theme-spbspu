@@ -11,6 +11,17 @@ body {
     background:#FFF;
     color:#000;
     }
+a:link,
+a:visited {
+    color:#555555;
+}
+a:active {
+    color:#0097CF;
+}
+a:hover {
+    color: #8D6E4F;
+    text-decoration:underline;
+}
 p {
     font-size: 12px;
     margin-bottom: 12px;
