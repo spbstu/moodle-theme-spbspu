@@ -22,29 +22,33 @@ div.forumpost.cleafix.firstpost.starter
             div.commands
 */
 
-
 .forumpost {
-    border:none;
-    margin-bottom:1em;
-    }
-    .forumpost .header {
-        overflow:hidden;
-        margin-bottom:0;
-        }
-        .forumpost .header .picture {
-            margin-right:0;
-            }
-            .forumpost .header .picture img {
-                margin:0;
-                width:30px;
-                height:30px;
-                }
-        .forumpost .subject {
-            font-size:2.4em;
-            line-height:1;
-            }
-        .forumpost .author {
-            font-size:0.9em;
-            margin: 10px 0 10px;
-            color:#999;
-            }
+    border: none;
+    margin-bottom: 1em;
+}
+
+.forumpost .header {
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+.forumpost .header .picture {
+    margin-right: 0;
+}
+
+.forumpost .header .picture img {
+    margin: 0;
+    width: 30px;
+    height: 30px;
+}
+
+.forumpost .subject {
+    font-size: 2.4em;
+    line-height: 1;
+}
+
+.forumpost .author {
+    font-size: 0.9em;
+    margin: 10px 0 10px;
+    color: #999;
+}

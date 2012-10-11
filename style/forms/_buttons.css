@@ -1,29 +1,30 @@
 input[type="submit"] {
     border: 1px #B1AFA1 solid;
     padding: 4px 10px;
-    }
+}
+
 input[name="cancel"] {
     border: 1px #B1AFA1 solid;
     color: #999;
     padding: 4px 10px;
-    }
+}
+
 input[type="button"] {
     border: 1px #B1AFA1 solid;
     padding: 4px 10px;
-    }
+}
 
 .showadvancedbtn {
     font-size: 14px;
     float: right;
     color: #999;
-    }
+}
 
 /* Specific changes */
 
-
 #id_submitbutton {
     padding: 8px 15px;
-    }
+}
 
 .buttons div,
 .buttons form {

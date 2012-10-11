@@ -1,51 +1,60 @@
 #userbar {
-    float:right;
-    margin:0 8px 4px;
+    float: right;
+    margin: 0 8px 4px;
     text-transform: uppercase;
-    }
+}
+
 .userbsar-links {
-    font-size:0;
-    }
-    .userbsar-links li {
-        font-size:11px;
-        display: inline-block;
-        padding: 2px 5px 0;
-        vertical-align:middle;
-        border-left: solid 1px #c2c2c2;
-        }
-        .userbsar-links li:first-child {
-            border-left:none;
-            }
+    font-size: 0;
+}
+
+.userbsar-links li {
+    font-size: 11px;
+    display: inline-block;
+    padding: 2px 5px 0;
+    vertical-align: middle;
+    border-left: solid 1px #c2c2c2;
+}
+
+.userbsar-links li:first-child {
+    border-left: none;
+}
 
 .user-messages-link,
 .user-messages-link:hover {
-    text-decoration:none;
-    }
+    text-decoration: none;
+}
+
 .user-messages-counter {
-    font-weight:bold;
-    padding:2px 5px;
-    background:#dbdbdb;
-    border-radius:3px;
-    }
+    font-weight: bold;
+    padding: 2px 5px;
+    background: #dbdbdb;
+    border-radius: 3px;
+}
+
 .user-messages-link:hover .user-messages-title {
-    text-decoration:underline;
-    }
+    text-decoration: underline;
+}
+
 .user-messages-link:hover .user-messages-counter {
-    background:#bdbdbd;
-    }
+    background: #bdbdbd;
+}
+
 .user-messages-link-new  .user-messages-title {
-    color:#C00;
-    }
+    color: #C00;
+}
+
 #userbar .userimg {
-    display:inline-block;
-    height:17px;
-    width:16px;
-    margin-right:5px;
-    vertical-align:middle;
-    }
-#userbar img {
-    float:none;
-    vertical-align:middle;
+    display: inline-block;
+    height: 17px;
+    width: 16px;
     margin-right: 5px;
-    border:solid 1px #FFF;
-    }
+    vertical-align: middle;
+}
+
+#userbar img {
+    float: none;
+    vertical-align: middle;
+    margin-right: 5px;
+    border: solid 1px #FFF;
+}

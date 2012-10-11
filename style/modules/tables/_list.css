@@ -1,15 +1,17 @@
-
 .list {
-    font-size:12px;
-    margin-bottom:1em;
-    }
-    .list tr:nth-child(2n) {
-        background:#EFEFEF;
-        }
-    .list td {
-        padding: 4px 8px;
-        }
-    .list .label {
-        padding-right:2ex;
-        color:#666;
-        }
+    font-size: 12px;
+    margin-bottom: 1em;
+}
+
+.list tr:nth-child(2n) {
+    background: #EFEFEF;
+}
+
+.list td {
+    padding: 4px 8px;
+}
+
+.list .label {
+    padding-right: 2ex;
+    color: #666;
+}

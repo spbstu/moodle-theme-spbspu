@@ -1,174 +1,208 @@
 .message_user_pictures {
     margin: 8px auto;
-    }
-    .message_user_pictures #user1,
-    .message_user_pictures #user2 {
-        width: 150px;
-    }
-    .message_user_pictures .heading {
-        line-height: 1;
-        margin-bottom: 8px;
-        }
+}
+
+.message_user_pictures #user1,
+.message_user_pictures #user2 {
+    width: 150px;
+}
+
+.message_user_pictures .heading {
+    line-height: 1;
+    margin-bottom: 8px;
+}
 
 .useractionlinks {
     font-size: 0;
-    }
+}
+
 .useractionlinks span {
-    font-size:13px;
+    font-size: 13px;
     display: block;
 }
 
 .messagehistorytype {
-    margin-bottom:8px;
+    margin-bottom: 8px;
     padding: 0 8px;
     border-bottom: solid 1px #cdcdcd;
-    background: -moz-linear-gradient(top,transparent 0,rgba(0, 0, 0, 0.05) 100%);
-    background: -webkit-gradient(linear,left top,left bottom,from(transparent),to(rgba(0, 0, 0, 0.05)));
-    background: -o-linear-gradient(top,transparent 0,rgba(0, 0, 0, 0.05) 100%);
-    background: -webkit-linear-gradient(top,transparent 0,rgba(0, 0, 0, 0.05) 100%);
-    background: -ms-linear-gradient(top,transparent 0,rgba(0, 0, 0, 0.05) 100%);
-    background: linear-gradient(top,transparent 0,rgba(0, 0, 0, 0.05) 100%);
-    }
-    .messagehistorytype span {
-        padding: 4px 4px;
-        background: #FFF;
-        border: solid 1px #cdcdcd;
-        border-bottom:none;
-        border-radius: 4px 4px 0 0;
-        }
+    background: -moz-linear-gradient(top, transparent 0, rgba(0, 0, 0, 0.05) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, 0.05)));
+    background: -o-linear-gradient(top, transparent 0, rgba(0, 0, 0, 0.05) 100%);
+    background: -webkit-linear-gradient(top, transparent 0, rgba(0, 0, 0, 0.05) 100%);
+    background: -ms-linear-gradient(top, transparent 0, rgba(0, 0, 0, 0.05) 100%);
+    background: linear-gradient(top, transparent 0, rgba(0, 0, 0, 0.05) 100%);
+}
+
+.messagehistorytype span {
+    padding: 4px 4px;
+    background: #FFF;
+    border: solid 1px #cdcdcd;
+    border-bottom: none;
+    border-radius: 4px 4px 0 0;
+}
 
 .messagehistory {
     padding: 4px;
-    }
-    .messagehistory h4 {
-        margin: 1em 0 0;
-        padding: 0 4px 4px;
-        border-bottom:solid 1px #dadada;
-        }
-    .messagehistory .messagehistory a,
-    .messagehistory .messagehistory a:hover {
-        color: #000;
-        text-decoration: none;
-        }
-    .messagehistory .message {
-        margin-left: 4px;
-        }
-        .messagehistory .message .time { 
-            font-size: 12px;
-            display: inline-block;
-            width:6ex;
-            padding-top: 3px;
-            vertical-align: top;
-            color: #999;
-            }
-        .messagehistory .message .content { 
-            display: inline-block;
-            margin-left: 1ex;
-            vertical-align: top;
-            }
-        .messagehistory .me .content {
-            margin-left: 2em;
-            color: #666;
-        }
+}
+
+.messagehistory h4 {
+    margin: 1em 0 0;
+    padding: 0 4px 4px;
+    border-bottom: solid 1px #dadada;
+}
+
+.messagehistory .messagehistory a,
+.messagehistory .messagehistory a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.messagehistory .message {
+    margin-left: 4px;
+}
+
+.messagehistory .message .time {
+    font-size: 12px;
+    display: inline-block;
+    width: 6ex;
+    padding-top: 3px;
+    vertical-align: top;
+    color: #999;
+}
+
+.messagehistory .message .content {
+    display: inline-block;
+    margin-left: 1ex;
+    vertical-align: top;
+}
+
+.messagehistory .me .content {
+    margin-left: 2em;
+    color: #666;
+}
 
 .message fieldset {
     border: none;
-    }
+}
 
 .messagesend {
 
-    }
-    .messagesend .fitem {
-        margin-bottom:0;
-        }
-    .messagesend .fitemtitle {
-        width: 100px;
-        }
-    .messagesend .felement {
-        margin-left: 120px;
-        }
+}
+
+.messagesend .fitem {
+    margin-bottom: 0;
+}
+
+.messagesend .fitemtitle {
+    width: 100px;
+}
+
+.messagesend .felement {
+    margin-left: 120px;
+}
 
 .message .contactselector {
     width: 200px;
     float: right;
-    }
-    .message .contactselector form {
-        margin-bottom:8px;
-        }
-    .message .contactselector fieldset {
-        padding:0;
-        }
-    .message .contactselector #message_contacts {
-        margin-bottom: 8px;
-        }
-        .message .contactselector #message_contacts td {
-            vertical-align: middle;
-            }
-        .message .contactselector #message_contacts .pix {
-            padding-right:4px;
-            }
-    .message .contactselector .heading {
-        font-size:12px;
-        padding-top:4px;
-        }
-.message .messagearea {
-    margin-right:240px;
-    }
-    .message .messagearea .heading {
-        font-size: 18px;
-        }
-    .message #combinedcontactssearchspan {
+}
 
-        }
-        .message #combinedcontactssearchspan input[type="submit"] {
-            font-size:11px;
-            }
-        .message #combinedcontactssearchspan a {
-            display: block;
-            }
+.message .contactselector form {
+    margin-bottom: 8px;
+}
+
+.message .contactselector fieldset {
+    padding: 0;
+}
+
+.message .contactselector #message_contacts {
+    margin-bottom: 8px;
+}
+
+.message .contactselector #message_contacts td {
+    vertical-align: middle;
+}
+
+.message .contactselector #message_contacts .pix {
+    padding-right: 4px;
+}
+
+.message .contactselector .heading {
+    font-size: 12px;
+    padding-top: 4px;
+}
+
+.message .messagearea {
+    margin-right: 240px;
+}
+
+.message .messagearea .heading {
+    font-size: 18px;
+}
+
+.message #combinedcontactssearchspan {
+
+}
+
+.message #combinedcontactssearchspan input[type="submit"] {
+    font-size: 11px;
+}
+
+.message #combinedcontactssearchspan a {
+    display: block;
+}
+
 .messagerecent {
 
-    }
-    .messagerecent .singlemessage {
-        margin-bottom:8px;
-        }
-    .messagerecent .singlemessage .otheruser {
-        display: block;
-        padding-right: 60px;
-        position: relative;
-        }
-        .messagerecent .singlemessage .history {
-            position: absolute;
-            right: 0;
-            width:16px;
-            text-align: right;
-            }
-        .messagerecent .singlemessage .addcontact,
-        .messagerecent .singlemessage .removecontact {
-            position: absolute;
-            right: 40px;
-            width:16px;
-            text-align: right;
-            }
-        .messagerecent .singlemessage .blockcontact {
-            position: absolute;
-            right: 20px;
-            width:16px;
-            text-align: right;
-            }
-        .messagerecent .singlemessage .pix {
-            margin-right: 4px;
-            }
-        .messagerecent .singlemessage .pix img {
-            vertical-align: middle;
-            }
-    .messagerecent .singlemessage .messagedate {
-        font-size:11px;
-        display: block;
-        margin-left:24px;
-        color:#999;
-        }
-    .messagerecent .singlemessage  .themessage {
-        display: block;
-        margin-left:24px;
-        }
+}
+
+.messagerecent .singlemessage {
+    margin-bottom: 8px;
+}
+
+.messagerecent .singlemessage .otheruser {
+    display: block;
+    padding-right: 60px;
+    position: relative;
+}
+
+.messagerecent .singlemessage .history {
+    position: absolute;
+    right: 0;
+    width: 16px;
+    text-align: right;
+}
+
+.messagerecent .singlemessage .addcontact,
+.messagerecent .singlemessage .removecontact {
+    position: absolute;
+    right: 40px;
+    width: 16px;
+    text-align: right;
+}
+
+.messagerecent .singlemessage .blockcontact {
+    position: absolute;
+    right: 20px;
+    width: 16px;
+    text-align: right;
+}
+
+.messagerecent .singlemessage .pix {
+    margin-right: 4px;
+}
+
+.messagerecent .singlemessage .pix img {
+    vertical-align: middle;
+}
+
+.messagerecent .singlemessage .messagedate {
+    font-size: 11px;
+    display: block;
+    margin-left: 24px;
+    color: #999;
+}
+
+.messagerecent .singlemessage  .themessage {
+    display: block;
+    margin-left: 24px;
+}

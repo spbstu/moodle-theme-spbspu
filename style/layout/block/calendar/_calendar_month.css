@@ -1,94 +1,110 @@
 .block_calendar_month {
-    
-    }
+
+}
 
 /* Calendar table
 ---------------------------------------- */
 
 .minicalendar {
-    width:100%;
-    text-align:center;
-    border-collapse:separate;
-    border-spacing:2px;
-    }
-    .minicalendar .weekdays th {
-        /*font-weight:normal;*/
-        font-size:10px;
-        color:#999;
-        }
-    .minicalendar .day {
-        font-size: 12px;
-        padding:3px;
-        color:#999;
-        background:#F0E9DC;
-        }
-        .minicalendar .day:hover {
-            background: #d6d0c5;
-            }
-    .minicalendar .weekend {
+    width: 100%;
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 2px;
+}
 
-        }
-    .minicalendar .today {
-        font-weight:bold;
-        color:#111;
-        }
-        .minicalendar .today a {
-            color:#111;
-            }
-    .minicalendar .event {
-        font-weight:bold;
-        color:#333;
-        }
-        .minicalendar .event a {
-            color:#333;
-            }
-    .minicalendar .dayblank {
-        background: #F8F1E4;
-        }
+.minicalendar .weekdays th {
+    /*font-weight:normal;*/
+    font-size: 10px;
+    color: #999;
+}
+
+.minicalendar .day {
+    font-size: 12px;
+    padding: 3px;
+    color: #999;
+    background: #F0E9DC;
+}
+
+.minicalendar .day:hover {
+    background: #d6d0c5;
+}
+
+.minicalendar .weekend {
+
+}
+
+.minicalendar .today {
+    font-weight: bold;
+    color: #111;
+}
+
+.minicalendar .today a {
+    color: #111;
+}
+
+.minicalendar .event {
+    font-weight: bold;
+    color: #333;
+}
+
+.minicalendar .event a {
+    color: #333;
+}
+
+.minicalendar .dayblank {
+    background: #F8F1E4;
+}
 
 /* Переключатель месяцев
 ---------------------------------------- */
 
 .block_calendar_month .calendar-controls {
     font-size: 11px;
-    position:relative;
-    margin-bottom:0.5em;
-    text-align:center;
-    vertical-align:middle;
-    }
-    .block_calendar_month .calendar-controls a {
-        color:#999;
-        text-decoration: none;
-        }
-        .block_calendar_month .calendar-controls a:hover {
-            color:#333;
-            }
-    .block_calendar_month .calendar-controls .arrow_link,
-    .block_calendar_month .calendar-controls .arrow {
-        padding:0 1ex;
-        }
+    position: relative;
+    margin-bottom: 0.5em;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.block_calendar_month .calendar-controls a {
+    color: #999;
+    text-decoration: none;
+}
+
+.block_calendar_month .calendar-controls a:hover {
+    color: #333;
+}
+
+.block_calendar_month .calendar-controls .arrow_link,
+.block_calendar_month .calendar-controls .arrow {
+    padding: 0 1ex;
+}
 
 /* Всплывающее окно
 ---------------------------------------- */
 
 .calendar-event-panel {
-    padding:5px;
-    background:#FFF;
-    border-radius:4px;
-    border:solid 1px #adadad;
-    box-shadow:0 0 5px #999;
-    }
-    .calendar-event-panel .yui3-overlay-content {
-        margin:0;
-        border:none;
-        background:none;
-        }
-    .eventtitle {
-        font-size:12px;
-        }
-    .calendar-event-panel .eventcontent {
-        text-align:left;
-        }
+    padding: 5px;
+    background: #FFF;
+    border-radius: 4px;
+    border: solid 1px #adadad;
+    box-shadow: 0 0 5px #999;
+}
+
+.calendar-event-panel .yui3-overlay-content {
+    margin: 0;
+    border: none;
+    background: none;
+}
+
+.eventtitle {
+    font-size: 12px;
+}
+
+.calendar-event-panel .eventcontent {
+    text-align: left;
+}
+
 .calendar-event-panel .yui3-overlay-content .eventtitle {
     font-size: 12px !important;
 }

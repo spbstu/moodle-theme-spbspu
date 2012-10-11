@@ -1,17 +1,21 @@
 .block_course_contacts .person-contacts {
     padding-top: 5px;
-    font-size:12px;
-    }
+    font-size: 12px;
+}
+
 .block_course_contacts .person-contacts img {
     vertical-align: middle;
-    }
+}
+
 .block_course_contacts .person-contacts li {
     padding-left: 18px;
 }
+
 .block_course_contacts .person-contacts .message {
     background: url(../../../../pix/icons/balloon.png);
     background-repeat: no-repeat;
-    }
+}
+
 .block_course_contacts .person-contacts .message img {
     display: none;
 }

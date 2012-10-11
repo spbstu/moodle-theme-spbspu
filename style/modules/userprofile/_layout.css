@@ -1,10 +1,13 @@
 .userprofile {
-    }
+}
+
 .userprofilebox {
-    }
-    .userprofilebox .profilepicture {
-        float:left;
-        }
-    .userprofilebox .descriptionbox {
-        margin-left:110px;
-        }
+}
+
+.userprofilebox .profilepicture {
+    float: left;
+}
+
+.userprofilebox .descriptionbox {
+    margin-left: 110px;
+}

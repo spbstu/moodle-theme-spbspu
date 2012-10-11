@@ -4,44 +4,53 @@
     display: inline-block;
     width: 120px;
     padding: 2px;
-    border:solid 1px #B1AFA1;
-    }
+    border: solid 1px #B1AFA1;
+}
+
 .loginform .rememberusername,
 .loginform .btn {
     font-size: 11px;
     margin-bottom: 4px;
     margin-left: 68px;
-    }
+}
+
 .loginform .rememberusername {
-    }
+}
+
 .loginform .fld {
     margin-bottom: 5px;
 }
+
 .block_loginplus .footer {
-    font-size:12px;
-    }
+    font-size: 12px;
+}
+
 .block_login .footer {
     text-align: center;
-    }
+}
+
 .block_login .footer div {
     display: inline;
     margin: 0 1ex;
 
-    }
+}
+
 .block_loginplus .subcontent {
-    text-align:center;
-    margin-bottom:1em;
-    padding:.5em;
-    background:#FFF;
-    border-radius:4px;
-    }
-    .block_loginplus .subcontent-header {
-        margin-bottom:.5em;
-        color:#000;
-        }
+    text-align: center;
+    margin-bottom: 1em;
+    padding: .5em;
+    background: #FFF;
+    border-radius: 4px;
+}
+
+.block_loginplus .subcontent-header {
+    margin-bottom: .5em;
+    color: #000;
+}
+
 .block_loginplus .loginform {
-    font-size:12px;
-    }
+    font-size: 12px;
+}
 
 .loginform .fld label {
     font-size: 12px;

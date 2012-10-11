@@ -1,8 +1,9 @@
 .block_online_users {
 
-    }
-    .block_online_users .content .info {
-        font-size: 13px;
-        text-align: left;
-        color:#999;
-        }
+}
+
+.block_online_users .content .info {
+    font-size: 13px;
+    text-align: left;
+    color: #999;
+}

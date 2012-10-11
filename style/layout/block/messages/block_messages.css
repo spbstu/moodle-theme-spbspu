@@ -1,8 +1,9 @@
 .block_messages {
 
-    }
-    .block_messages .content .info {
-        margin-bottom: 8px;
-        color:#999;
-        text-align: left;
-        }
+}
+
+.block_messages .content .info {
+    margin-bottom: 8px;
+    color: #999;
+    text-align: left;
+}

@@ -1,116 +1,137 @@
 form {
-    }
+}
+
 form .fld {
-    overflow:hidden;
-    margin-bottom:1em;
-    }
+    overflow: hidden;
+    margin-bottom: 1em;
+}
+
 form .fld label {
-    display:inline-block;
-    width:48px;
-    margin-right:8px;
-    text-align:right;
-    vertical-align:middle;
-    }
+    display: inline-block;
+    width: 48px;
+    margin-right: 8px;
+    text-align: right;
+    vertical-align: middle;
+}
+
 form .btn {
-    margin-left:56px;
-    margin-bottom:1em;
-    }
+    margin-left: 56px;
+    margin-bottom: 1em;
+}
+
 input[type="text"],
 input[type="password"] {
-    padding:3px;
-    vertical-align:middle;
-    }
+    padding: 3px;
+    vertical-align: middle;
+}
+
 select {
     max-width: 99%;
-    }
-.form-buttons {
-    margin-top:8px;
-    padding-left: 220px;
-    }
+}
 
+.form-buttons {
+    margin-top: 8px;
+    padding-left: 220px;
+}
 
 fieldset {
-    padding:8px;
-    border-bottom:solid 1px #dadada;
-    }
-    fieldset fieldset {
-        padding:0;
-        border:none;
-        }
-    .invisiblefieldset {
-        padding: 0;
-        border:none;
-    }
-    fieldset.hidden {
-        border: none !important;
-        }
+    padding: 8px;
+    border-bottom: solid 1px #dadada;
+}
+
+fieldset fieldset {
+    padding: 0;
+    border: none;
+}
+
+.invisiblefieldset {
+    padding: 0;
+    border: none;
+}
+
+fieldset.hidden {
+    border: none !important;
+}
+
 legend {
-    font-size:16px;
-    margin-left:215px;
-    padding:1em 0 0;
-    }
+    font-size: 16px;
+    margin-left: 215px;
+    padding: 1em 0 0;
+}
 
 .fitem {
     margin-bottom: 1.5em;
-    }
-    .fitem:after {
-        content:".";
-        display:block;
-        clear: both;
-        height:0;
-        overflow: hidden;
-        visibility: hidden;
-        }
+}
+
+.fitem:after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
 .fitemtitle {
-    line-height:1.15;
-    position:relative;
+    line-height: 1.15;
+    position: relative;
     float: left;
-    width:200px;
-    margin-right:1.5ex;
-    padding-right:1ex;
-    text-align:right;
-    vertical-align:top;
-    color:#666;
-    }
-    .fitemtitle .req {
-        position:absolute;
-        right:-.5ex;
-        top:0px;
-        }
-    .fitemtitle .helplink {
-        position:absolute;
-        right:-.7ex;
-        top:0;
-        }
+    width: 200px;
+    margin-right: 1.5ex;
+    padding-right: 1ex;
+    text-align: right;
+    vertical-align: top;
+    color: #666;
+}
+
+.fitemtitle .req {
+    position: absolute;
+    right: -.5ex;
+    top: 0px;
+}
+
+.fitemtitle .helplink {
+    position: absolute;
+    right: -.7ex;
+    top: 0;
+}
+
 .felement {
     margin-left: 220px;
-    }
-    .fstatic {
-        font-size:12px;
-        color:#000;
-        margin-top:-1em;
-        margin-bottom:0;
-        }
+}
+
+.fstatic {
+    font-size: 12px;
+    color: #000;
+    margin-top: -1em;
+    margin-bottom: 0;
+}
+
 .fitem textarea {
     width: 80%;
-    }
+}
+
 .fpassword input[type="password"],
 .ftext input {
     width: 80%;
-    max-width:350px;
-    }
+    max-width: 350px;
+}
+
 .unmask label {
-    margin-left:1ex;
-    }
+    margin-left: 1ex;
+}
+
 .fdescription {
     margin-left: 210px;
-    }
+}
+
 .fitem .error {
-    font-size:12px;
-    color:#900;
-    }
+    font-size: 12px;
+    color: #900;
+}
+
 .form-shortname {
     font-size: 12px;
-    color:#999;
+    color: #999;
     display: block;
 }

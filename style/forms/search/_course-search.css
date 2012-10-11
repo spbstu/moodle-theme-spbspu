@@ -1,64 +1,75 @@
 .search-course {
-    padding:14px;
-    background:#ededed;
-    border-radius:6px;
-    }
+    padding: 14px;
+    background: #ededed;
+    border-radius: 6px;
+}
+
 .search-course-box {
-    width:100%;
-    }
-    .search-course-box .search-btn {
-        width:80px;
-        text-align:right;
-        }
-    .search-course input {
-        font-size:18px;
-        vertical-align:middle;
-        }
-    .search-course input[type="text"] {
-        width:100%;
-        margin-right:10px;
-        }
+    width: 100%;
+}
+
+.search-course-box .search-btn {
+    width: 80px;
+    text-align: right;
+}
+
+.search-course input {
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.search-course input[type="text"] {
+    width: 100%;
+    margin-right: 10px;
+}
 
 .coursesearchbox {
-    margin:2em 0;
-    }
-    .coursesearchbox label {
-        font-size:24px;
-        display:block;
-        }
-    .coursesearchbox #shortsearchbox,
-    .coursesearchbox #navsearchbox,
-    .coursesearchbox #coursesearchbox {
-        font-size:20px;
-        width:80%;
-        margin-right:12px;
-        padding:3px;
-        border:solid 1px #dadada;
-        }
-    .coursesearchbox input {
-        font-size:20px;
-        }
+    margin: 2em 0;
+}
+
+.coursesearchbox label {
+    font-size: 24px;
+    display: block;
+}
+
+.coursesearchbox #shortsearchbox,
+.coursesearchbox #navsearchbox,
+.coursesearchbox #coursesearchbox {
+    font-size: 20px;
+    width: 80%;
+    margin-right: 12px;
+    padding: 3px;
+    border: solid 1px #dadada;
+}
+
+.coursesearchbox input {
+    font-size: 20px;
+}
 
 #coursesearchnavbar {
 
-    }
+}
+
 #coursesearchnavbar fieldset {
     margin: 0;
 }
+
 #coursesearchnavbar label {
-    font-size:12px;
+    font-size: 12px;
     display: inline-block;
     margin-right: 6px;
 }
+
 #coursesearchnavbar #navsearchbox {
-    font-size:14px;
-    padding:3px;
+    font-size: 14px;
+    padding: 3px;
     display: inline-block;
     width: 10em;
     border: solid 1px #ACACAC;
-    background:#FFF;
-    margin-right:6px;
+    background: #FFF;
+    margin-right: 6px;
 }
+
 #coursesearchnavbar input[type="submit"] {
     font-size: 12px;
     display: inline-block;

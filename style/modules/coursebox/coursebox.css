@@ -1,41 +1,50 @@
-.courseboxes { 
-    }
-    .courseboxes .unlist {
-        list-style:none;
-        }
-        .courseboxes .unlist li {
-            margin:0;
-            list-style:none;
-            }
-    .courseboxes .coursebox {
-        overflow:hidden;
-        margin-bottom:1.5em;
-        }
-    .coursebox .info {
-        }
-    .coursebox .name {
-        font-size:16px;
-        margin-top:0;
-        }
-        .coursebox .name a {
-            color:#333;
-            }
-    .coursebox .teachers {
-        font-size:13px;
-        float:left;
-        width:30%;
-        margin:0 0 0 2em;
-        }
-        .coursebox .teachers a {
-            min-width:120px;
-            max-width:200px;
-            display:-moz-inline-block;
-            display:inline-block;
-            vertical-align:top;
-            }
-    .coursebox .summary {
-        margin:0 0 1em 2em;
-        overflow:hidden;
-        color:#666;
-        }
+.courseboxes {
+}
+
+.courseboxes .unlist {
+    list-style: none;
+}
+
+.courseboxes .unlist li {
+    margin: 0;
+    list-style: none;
+}
+
+.courseboxes .coursebox {
+    overflow: hidden;
+    margin-bottom: 1.5em;
+}
+
+.coursebox .info {
+}
+
+.coursebox .name {
+    font-size: 16px;
+    margin-top: 0;
+}
+
+.coursebox .name a {
+    color: #333;
+}
+
+.coursebox .teachers {
+    font-size: 13px;
+    float: left;
+    width: 30%;
+    margin: 0 0 0 2em;
+}
+
+.coursebox .teachers a {
+    min-width: 120px;
+    max-width: 200px;
+    display: -moz-inline-block;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.coursebox .summary {
+    margin: 0 0 1em 2em;
+    overflow: hidden;
+    color: #666;
+}
 

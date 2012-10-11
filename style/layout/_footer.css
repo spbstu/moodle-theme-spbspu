@@ -1,34 +1,39 @@
 #footer {
     font-size: 11px;
-    overflow:hidden;
-    padding:10px 10px;
+    overflow: hidden;
+    padding: 10px 10px;
     background: #FFF;
     text-align: center;
-    }
+}
 
 .footer-sitelinks ul {
-    margin-bottom:10px;
-    font-size:0;
-    }
+    margin-bottom: 10px;
+    font-size: 0;
+}
+
 .footer-sitelinks li {
-    font-size:11px;
-    display:inline-block;
+    font-size: 11px;
+    display: inline-block;
     padding: 0 10px;
     border-left: solid 1px #999;
-    }
-    .footer-sitelinks li:first-child {
-        border:none;
-        }
+}
+
+.footer-sitelinks li:first-child {
+    border: none;
+}
 
 .footer-login {
-    padding-top:16px;
-    }
-    .footer-login label {
-        margin: 0 5px 0 10px;
-        }
-    .footer-login input {
-        width:100px;    
-        }
-        .footer-login .submit {
-            width:auto;
-            }
+    padding-top: 16px;
+}
+
+.footer-login label {
+    margin: 0 5px 0 10px;
+}
+
+.footer-login input {
+    width: 100px;
+}
+
+.footer-login .submit {
+    width: auto;
+}

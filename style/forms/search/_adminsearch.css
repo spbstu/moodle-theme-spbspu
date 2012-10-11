@@ -1,7 +1,8 @@
 .adminsearchform {
     position: relative;
-    height:30px;
+    height: 30px;
 }
+
 #adminsearchquery {
     position: absolute;
     width: auto;
@@ -9,6 +10,7 @@
     right: 63px;
     /*width:10em;*/
 }
+
 .adminsearchform input[type="submit"] {
     position: absolute;
     right: 0;

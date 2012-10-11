@@ -1,101 +1,111 @@
 #header {
-    position:fixed;
-    z-index:1000;
-    top:0;
-    right:0;
-    left:0;
-    min-height:36px;
-    padding:4px 0 0;
-    background:#FFF;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+    min-height: 36px;
+    padding: 4px 0 0;
+    background: #FFF;
     /*box-shadow: 0px 0 6px #afafa3;*/
-    }
+}
+
 .header-wrapper {
-    min-width:910px;
-    max-width:1280px;
-    margin:0 auto;
-    }
+    min-width: 910px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
 #logo {
-    float:left;
-    }
+    float: left;
+}
+
 .logo {
-    float:left;
+    float: left;
     margin: 0 5px 0 8px;
-    height:36px;
-    width:36px;
-    }
+    height: 36px;
+    width: 36px;
+}
+
 .subtitle {
     font-family: Verdana, Helvetica, sans-serif;
-    font-size:10px;
+    font-size: 10px;
     font-weight: bold;
     text-transform: uppercase;
-    line-height:1.2;
+    line-height: 1.2;
     margin-top: 3px;
-    margin-bottom:5px;
-    white-space:nowrap;
+    margin-bottom: 5px;
+    white-space: nowrap;
     color: #585858;
-    }
+}
 
 .site-name {
     font-family: Tahoma, Helvetica, sans-serif;
-    font-size:14px;
+    font-size: 14px;
     font-weight: bold;
-    line-height:0.7;
+    line-height: 0.7;
     text-transform: uppercase;
     word-spacing: 2px;
-    margin:0;
-    white-space:nowrap;
+    margin: 0;
+    white-space: nowrap;
     color: #585858;
-    }
+}
 
 #header a {
-    color:#585858;
+    color: #585858;
     text-decoration: none;
-    }
+}
+
 .logobar {
     padding-bottom: 3px;
-    }
-    .logobar:after {
-        content:'.';
-        visibility: hidden;
-        clear: both;
-        display: block;
-        height:0;
-        overflow: hidden;
-        }
+}
+
+.logobar:after {
+    content: '.';
+    visibility: hidden;
+    clear: both;
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
+
 .navbar {
-    padding:0 3px;
-    border-top:solid 1px #d6d3cc;
-    border-bottom:solid 1px rgb(169, 169, 153);
-    background:#c7c7af;
+    padding: 0 3px;
+    border-top: solid 1px #d6d3cc;
+    border-bottom: solid 1px rgb(169, 169, 153);
+    background: #c7c7af;
     background: -moz-linear-gradient(#e5e3d7, #c7c7af);
-    background: -webkit-linear-gradient(#e5e3d7,#c7c7af);
+    background: -webkit-linear-gradient(#e5e3d7, #c7c7af);
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#e5e3d7',endColorstr='#c7c7af')";
-    background: linear-gradient(#e5e3d7,#c7c7af);
-    }
-    .navbar:after {
-        content:'.';
-        visibility: hidden;
-        clear: both;
-        display: block;
-        height:0;
-        overflow: hidden;
-        }
+    background: linear-gradient(#e5e3d7, #c7c7af);
+}
+
+.navbar:after {
+    content: '.';
+    visibility: hidden;
+    clear: both;
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
 
 .navbutton {
-    line-height:1;
+    line-height: 1;
     position: relative;
     z-index: 100;
-    float:right;
-    margin-top:2px;
-    margin-right:4px;
-    }
-    .navbutton input {
-        font-size:12px;
-        cursor:pointer;
-        }
-    .navbutton input:hover {
-        text-decoration:underline;
-        }
+    float: right;
+    margin-top: 2px;
+    margin-right: 4px;
+}
+
+.navbutton input {
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.navbutton input:hover {
+    text-decoration: underline;
+}
 
 .navbutton input[type="submit"] {
     color: #575551;
@@ -103,17 +113,18 @@
     padding: 4px 8px;
     line-height: normal;
     text-shadow: none;
-    border:solid 1px;
+    border: solid 1px;
     border-color: #A7A7A7;
     border-bottom-color: #939393;
     background: -moz-linear-gradient(#E0D9CC, #c4bfb5);
-    background: -webkit-linear-gradient(#E0D9CC,#c4bfb5);
+    background: -webkit-linear-gradient(#E0D9CC, #c4bfb5);
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#E0D9CC',endColorstr='#c4bfb5')";
-    background: linear-gradient(#E0D9CC,#c4bfb5);
+    background: linear-gradient(#E0D9CC, #c4bfb5);
     border-radius: 3px;
 }
+
 .navbutton input:hover {
-    text-decoration:none;
+    text-decoration: none;
     background: -moz-linear-gradient(#c4bfb5, #a8a49d);
     background: -webkit-linear-gradient(#c4bfb5, #a8a49d);
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#c4bfb5',endColorstr='#a8a49d')";

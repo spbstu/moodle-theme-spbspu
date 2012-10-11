@@ -1,34 +1,38 @@
 .beingmoved {
-    padding:8px 8px 25px;
-    background:#fbf48e !important;
-    border-radius:5px 5px 0 0;
-    }
-    .beingmoved .commands {
-        background:#fbf48e;
-        }
+    padding: 8px 8px 25px;
+    background: #fbf48e !important;
+    border-radius: 5px 5px 0 0;
+}
+
+.beingmoved .commands {
+    background: #fbf48e;
+}
 
 .blockmovetarget {
-    display:block;
-    margin-bottom:1em;
-    padding:.5em;
-    border:dashed 1px #ababab;
-    background:#dbdbdb;
-    border-radius:5px;
-    }
-    .blockmovetarget:hover {
-        background:#ECECEC;
-        }
-    .blockmovetarget .accesshide {
-        display:block;
-        position:static;
-        }
+    display: block;
+    margin-bottom: 1em;
+    padding: .5em;
+    border: dashed 1px #ababab;
+    background: #dbdbdb;
+    border-radius: 5px;
+}
+
+.blockmovetarget:hover {
+    background: #ECECEC;
+}
+
+.blockmovetarget .accesshide {
+    display: block;
+    position: static;
+}
+
 .blockannotation {
-    font-size:12px;
-    position:relative;
+    font-size: 12px;
+    position: relative;
     top: -30px;
-    padding:5px 8px;
-    background:#CCC;
-    border:1px #ababab;
-    border-style:none solid solid;
+    padding: 5px 8px;
+    background: #CCC;
+    border: 1px #ababab;
+    border-style: none solid solid;
     border-radius: 0 0 5px 5px;
-    }
+}
